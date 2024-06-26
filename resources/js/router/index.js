@@ -7,7 +7,7 @@ const routes = [
         meta: {
             title: 'Crah',
         },
-        component: () => import('../views/crypto/ico-landing.vue'),
+        component: () => import('../views/crypto/portada.vue'),
     },
 
     // {
@@ -269,12 +269,12 @@ const routes = [
     //     meta: { authRequired: true, title: 'Login' },
     //     component: () => import('../views/sample-pages/login-sample.vue')
     // },
-    // {
-    //     path: '/login',
-    //     name: 'login',
-    //     meta: { title: 'Login' },
-    //     component: () => import('../views/account/login.vue')
-    // },
+    {
+        path: '/login',
+        name: 'login',
+        meta: { title: 'Login' },
+        component: () => import('../views/account/login.vue')
+    },
     // {
     //     path: '/auth/register',
     //     name: 'register',
