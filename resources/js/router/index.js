@@ -602,7 +602,7 @@ const router = createRouter({
 router.beforeEach(async (routeTo, routeFrom, next) => {
     // set title name
     if (routeTo.meta.title != undefined) {
-        document.title = routeTo.meta.title + " | Skote Laravel 10 + Vue 3 Admin & Dashboard";
+        document.title = routeTo.meta.title + " | Comisión Regional Anticorrupción de Huánuco";
     }
 
     const authRequired = routeTo.matched.some((route) => route.meta.authRequired);
