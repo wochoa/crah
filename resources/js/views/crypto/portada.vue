@@ -110,7 +110,7 @@ export default {
 
           <div class="ms-lg-2">
             <!-- <a href="/login" class="btn btn-outline-success w-xs">Ingresar</a> -->
-            <router-link to="/login" class="btn btn-outline-success w-xs">Ingresar</router-link>
+            <router-link to="/login" class="btn btn-dark w-xs">Ingresar</router-link>
           </div>
         </div>
       </div>
@@ -118,7 +118,7 @@ export default {
 
     <!-- hero section start -->
     <section class="section hero-section bg-ico-hero" id="inicio">
-      <div class="bg-overlay bg-primary"></div>
+      <div class="bg-overlay bg-danger"></div>
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-5">
@@ -277,6 +277,8 @@ export default {
             </div>
           </div>
           <!-- end row -->
+
+
         </div>
       </div>
       <!-- end container -->
@@ -289,32 +291,29 @@ export default {
         <div class="row">
           <div class="col-lg-12">
             <div class="text-center mb-5">
-              <div class="small-title">About us</div>
-              <h4>What is ICO Token?</h4>
+              <div class="small-title">Quienes somos</div>
+              <h4>Presentación</h4>
             </div>
           </div>
         </div>
         <div class="row align-items-center">
           <div class="col-lg-5">
             <div class="text-muted">
-              <h4>Best ICO for your cryptocurrency business</h4>
-              <p>
-                If several languages coalesce, the grammar of
-                the resulting that of the individual new common
-                language will be more simple and regular than
-                the existing.
+              <h4>Presentación</h4>
+              <p style="text-align: justify;">
+                La corrupción en nuestro país, desde el periodo colonial hasta nuestros días, ha sido un fenómeno insidioso, amplio, variado y global que no sólo comprende actividades públicas sino también privadas, como el ofrecimiento y la recepción de sobornos; la malversación y mala asignación de fondos y gastos públicos; los escándalos financieros y políticos; el fraude electoral, el tráfico de influencias y otras trasgresiones administrativas como el financiamiento ilegal de partidos políticos en busca de favores indebidos, los cuales limitan el desarrollo de nuestro país.
               </p>
-              <p class="mb-4">
+              <!-- <p class="mb-4">
                 It would be necessary to have uniform
                 pronunciation.
-              </p>
+              </p> -->
 
               <div class="button-items">
-                <a href="#" class="btn btn-success me-2 ">Read More</a>
-                <a href="#" class="btn btn-outline-primary">How It work</a>
+                <a href="#" class="btn btn-success me-2 ">Ver miembros</a>
+                <!-- <a href="#" class="btn btn-outline-primary">How It work</a> -->
               </div>
 
-              <div class="row mt-4">
+              <!-- <div class="row mt-4">
                 <div class="col-lg-4 col-6">
                   <div class="mt-4">
                     <h4>$ 6.2 M</h4>
@@ -327,7 +326,8 @@ export default {
                     <p>Users</p>
                   </div>
                 </div>
-              </div>
+              </div> -->
+
             </div>
           </div>
 
@@ -393,8 +393,8 @@ export default {
         <div class="row">
           <div class="col-lg-12">
             <div class="text-center mb-5">
-              <div class="small-title">Features</div>
-              <h4>Key features of the product</h4>
+              <div class="small-title">Documentos</div>
+              <h4>Documentos CRAH</h4>
             </div>
           </div>
         </div>
@@ -487,7 +487,8 @@ export default {
           <div class="col-xl-4 col-sm-6">
             <div class="blog-box mb-4 mb-xl-0">
               <div class="position-relative">
-                <img :src="cryblog1" alt="" class="rounded img-fluid mx-auto d-block" />
+                <!-- <img :src="cryblog1" alt="" class="rounded img-fluid mx-auto d-block" /> -->
+                <img :src="'https://skote-v-light.react.themesbrand.com/static/media/img-1.0688bacf7ea5b286428b.jpg'" alt="" class="rounded img-fluid mx-auto d-block" />
                 <div class="badge bg-success blog-badge font-size-11">
                   Cryptocurrency
                 </div>
@@ -507,7 +508,7 @@ export default {
                 </p>
 
                 <div>
-                  <a href="#">Read more</a>
+                  <a href="#">Leerr más</a>
                 </div>
               </div>
             </div>
@@ -516,7 +517,8 @@ export default {
           <div class="col-xl-4 col-sm-6">
             <div class="blog-box mb-4 mb-xl-0">
               <div class="position-relative">
-                <img :src="cryblog2" alt="" class="rounded img-fluid mx-auto d-block" />
+                <!-- <img :src="cryblog2" alt="" class="rounded img-fluid mx-auto d-block" /> -->
+                <img :src="'https://skote-v-light.react.themesbrand.com/static/media/img-2.d318de83ba91a811a1c9.jpg'" alt="" class="rounded img-fluid mx-auto d-block" />
                 <div class="badge bg-success blog-badge font-size-11">
                   Cryptocurrency
                 </div>
@@ -534,7 +536,7 @@ export default {
                 </p>
 
                 <div>
-                  <a href="#">Read more</a>
+                  <a href="#">Leerr más</a>
                 </div>
               </div>
             </div>
@@ -543,7 +545,8 @@ export default {
           <div class="col-xl-4 col-sm-6">
             <div class="blog-box mb-4 mb-xl-0">
               <div class="position-relative">
-                <img :src="cryblog3" alt="" class="rounded img-fluid mx-auto d-block" />
+                <!-- <img :src="cryblog3" alt="" class="rounded img-fluid mx-auto d-block" /> -->
+                <img :src="'https://skote-v-light.react.themesbrand.com/static/media/img-3.173a4ec6c9399dff5b19.jpg'" alt="" class="rounded img-fluid mx-auto d-block" />
                 <div class="badge bg-success blog-badge font-size-11">
                   Cryptocurrency
                 </div>
@@ -563,7 +566,7 @@ export default {
                 </p>
 
                 <div>
-                  <a href="#">Read more</a>
+                  <a href="#">Leerr más</a>
                 </div>
               </div>
             </div>
