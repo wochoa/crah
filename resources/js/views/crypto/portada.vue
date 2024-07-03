@@ -584,8 +584,8 @@ export default {
         <div class="row">
           <div class="col-lg-12">
             <div class="text-center mb-5">
-              <div class="small-title">FAQs</div>
-              <h4>Frequently asked questions</h4>
+              <div class="small-title">Denuncia</div>
+              <h4>Registro de Denuncias</h4>
             </div>
           </div>
         </div>
@@ -847,9 +847,9 @@ export default {
     <!-- Faqs end -->
 
     <!-- Footer start -->
-    <footer class="landing-footer">
+    <footer class="landing-footer" style="background-color: #282221 !important;">
       <div class="container">
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-lg-3 col-sm-6">
             <div class="mb-4 mb-lg-0">
               <h5 class="mb-3 footer-list-title">Company</h5>
@@ -915,25 +915,25 @@ export default {
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- end row -->
 
-        <hr class="footer-border my-5" />
+        <!-- <hr class="footer-border my-5" /> -->
 
         <div class="row">
           <div class="col-lg-6">
             <div class="mb-4">
-              <img :src="logoLight" alt="" height="20" />
+              <img :src="logoLight" alt="" height="50" />
             </div>
 
             <p class="mb-2">
-              2020 © Skote. Design & Develop by Themesbrand
+              2020 © CRAH. Comisión Regional Anticorrupción de Huánuco
             </p>
-            <p>
+            <!-- <p>
               It will be as simple as occidental in fact, it will
               be to an english person, it will seem like
               simplified English, as a skeptical
-            </p>
+            </p> -->
           </div>
         </div>
       </div>
