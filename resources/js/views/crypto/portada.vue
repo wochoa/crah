@@ -309,7 +309,7 @@ export default {
               </p> -->
 
               <div class="button-items">
-                <a href="#" class="btn btn-success me-2 ">Ver miembros</a>
+                <a href="https://themesbrand.com/skote-django/layouts/crypto-ico-landing.html" class="btn btn-success me-2 ">Ver miembros</a>
                 <!-- <a href="#" class="btn btn-outline-primary">How It work</a> -->
               </div>
 
