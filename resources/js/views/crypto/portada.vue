@@ -139,13 +139,13 @@ export default {
           <div class="col-lg-5 col-md-8 col-sm-10 ms-lg-auto">
             <div class="card overflow-hidden mb-0 mt-5 mt-lg-0">
               <div class="card-header text-center">
-                <h5 class="mb-0">ICO Countdown time</h5>
+                <h5 class="mb-0">Evento: Implementación del CRAH desconcentradas</h5>
               </div>
               <div class="card-body">
                 <div class="text-center">
-                  <h5>Time left to Ico :</h5>
+                  <h5>Tiempo restante:</h5>
                   <div class="mt-4">
-                    <vue-countdown :time="365 * 24 * 60 * 60 * 1000" v-slot="{ days, hours, minutes, seconds }" tag="div"
+                    <vue-countdown :time="15 * 24 * 60 * 60 * 1000" v-slot="{ days, hours, minutes, seconds }" tag="div"
                       class="counter-number ico-countdown d-flex">
                       <div class="coming-box">
                         {{ days }}
@@ -168,17 +168,17 @@ export default {
 
                   <div class="mt-4">
                     <button type="button" class="btn btn-success w-md">
-                      Get Token
+                      Inscribirme
                     </button>
                   </div>
 
                   <div class="mt-5">
-                    <h4 class="fw-semibold">
-                      1 ETH = 2235 SKT
-                    </h4>
+                    <h5 class="fw-semibold">
+                      Inscritos hasta la fecha
+                    </h5>
                     <div class="clearfix mt-4">
                       <h5 class="float-end font-size-14">
-                        5234.43
+                        87
                       </h5>
                     </div>
                     <div class="progress p-1 progress-xl softcap-progress">
