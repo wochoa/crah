@@ -16,7 +16,7 @@ export default {
       profileImg, logo,
       processing: false,
       authError: null,
-      isAuthError: false,      
+      isAuthError: false,
     }
   },
   beforeCreate() {
@@ -63,8 +63,8 @@ export default {
               <div class="row">
                 <div class="col-7">
                   <div class="text-primary p-4">
-                    <h5 class="text-primary">Welcome Back !</h5>
-                    <p>Sign in to continue to Skote.</p>
+                    <!-- <h5 class="text-primary">Welcome Back !</h5> -->
+                    <p>Inicie sesión en CRAH</p>
                   </div>
                 </div>
                 <div class="col-5 align-self-end">
@@ -102,7 +102,7 @@ export default {
                 </b-form-checkbox>
                 <div class="mt-3 d-grid">
                   <button type="submit" :disabled="processing" @click="login" class="btn btn-primary btn-block">
-                    {{ processing ? "Please wait" : "Login" }}
+                    {{ processing ? "Please wait" : "Ingresar" }}
                   </button>
                 </div>
                 <div class="mt-4 text-center">
