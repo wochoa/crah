@@ -118,7 +118,7 @@ export default {
 
     <!-- hero section start -->
     <section class="section hero-section bg-ico-hero" id="inicio">
-      <div class="bg-overlay bg-danger"></div>
+      <div class="bg-overlay bg-danger" style="background-color: #DA291C !important;"></div>
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-5">
