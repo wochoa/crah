@@ -484,7 +484,7 @@ export default {
     <!-- Features end -->
 
     <!-- Blog start -->
-    <section class="section bg-white" id="noticias">
+    <section class="section bg-red" id="noticias">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -498,7 +498,7 @@ export default {
 
             <div class="row">
                 <div class="col-xl-4 col-sm-6">
-                    <div class="blog-box mb-4 mb-xl-0">
+                    <div class="card blog-box mb-4 mb-xl-0">
                         <div class="position-relative">
                             <!-- <img :src="cryblog1" alt="" class="rounded img-fluid mx-auto d-block" /> -->
                             <img :src="'https://skote-v-light.react.themesbrand.com/static/media/img-1.0688bacf7ea5b286428b.jpg'" alt="" class="rounded img-fluid mx-auto d-block" />
@@ -507,7 +507,7 @@ export default {
                             </div>
                         </div>
 
-                        <div class="mt-4 text-muted">
+                        <div class="mt-4 text-muted p-2">
                             <p class="mb-2">
                                 <i class="bx bx-calendar me-1"></i> 04 Mar,
                                 2020
@@ -528,7 +528,7 @@ export default {
                 </div>
 
                 <div class="col-xl-4 col-sm-6">
-                    <div class="blog-box mb-4 mb-xl-0">
+                    <div class="card blog-box mb-4 mb-xl-0">
                         <div class="position-relative">
                             <!-- <img :src="cryblog2" alt="" class="rounded img-fluid mx-auto d-block" /> -->
                             <img :src="'https://skote-v-light.react.themesbrand.com/static/media/img-2.d318de83ba91a811a1c9.jpg'" alt="" class="rounded img-fluid mx-auto d-block" />
@@ -537,7 +537,7 @@ export default {
                             </div>
                         </div>
 
-                        <div class="mt-4 text-muted">
+                        <div class="mt-4 text-muted p-2">
                             <p class="mb-2">
                                 <i class="bx bx-calendar me-1"></i> 12 Feb,
                                 2020
@@ -556,7 +556,7 @@ export default {
                 </div>
 
                 <div class="col-xl-4 col-sm-6">
-                    <div class="blog-box mb-4 mb-xl-0">
+                    <div class="card blog-box mb-4 mb-xl-0">
                         <div class="position-relative">
                             <!-- <img :src="cryblog3" alt="" class="rounded img-fluid mx-auto d-block" /> -->
                             <img :src="'https://skote-v-light.react.themesbrand.com/static/media/img-3.173a4ec6c9399dff5b19.jpg'" alt="" class="rounded img-fluid mx-auto d-block" />
@@ -565,7 +565,7 @@ export default {
                             </div>
                         </div>
 
-                        <div class="mt-4 text-muted">
+                        <div class="mt-4 text-muted p-2">
                             <p class="mb-2">
                                 <i class="bx bx-calendar me-1"></i> 06 Jan,
                                 2020
