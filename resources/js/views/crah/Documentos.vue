@@ -13,7 +13,7 @@ export default {
 <template>
 <div class="row">
                 <div class="col-lg-12">
-                    <div class="text-center mb-5">
+                    <div class="text-center mb-2">
                         <div class="small-title text-secondary">CRAH</div>
                         <h4>DOCUMENTOS NORMATIVOS</h4>
                     </div>
@@ -23,32 +23,69 @@ export default {
 
     <div class="col-xl-3 col-sm-6">
         <div class="card blog-box mb-4 mb-xl-0">
-            <div class="position-relative">
-                <!-- <img :src="cryblog1" alt="" class="rounded img-fluid mx-auto d-block" /> -->
-                <img :src="Jaimegeronimo" alt="" class="rounded img-fluid mx-auto d-block" />
-                <!-- <div class="badge bg-danger blog-badge font-size-11">
-                                Acitividad
-                            </div> -->
+            <div class="card-header">
+                <h4>Documentos normativos</h4>
+                <p>22-07-2024</p>
             </div>
-
-            <div class="mt-4 text-muted p-2">
-                <!-- <p class="mb-2">
-                                <i class="bx bx-calendar me-1"></i> 19 Abril,
-                                2024
-                            </p> -->
-                <p class="mb-3 text-center">
-                    Dr. Jaime Gerónimo De la Cruz <br>
-                    <b>Presidente del CRAH</b>
+            <div class="card-body">
+                <a href="#" class="h5">Resolución Ejecutiva Regional N.° 010-2024-GRH/GR</a>
+                <p class="text-secondary">DESIGNAR, con eficacia anticipada a partir del 12 de diciembre del 2023 a la Ing. YOC-LIN ALBUJAR NATEROS,...
                 </p>
-                <!-- <p>
-                                Los miembros de la Comisión Regional Anticorrupción de Huánuco (CRAH) presidida por el Dr. Jaime Gerónimo De la Cruz, realizaron una sesión extraordinaria en donde tuvieron la participación del Gobernador Regional de Huánuco, Antonio Pulgar Lucas.
-                            </p>
-
-                            <div>
-                                <a href="#">Leer más</a>
-                            </div> -->
             </div>
         </div>
+    </div>
+
+    <div class="col-xl-3 col-sm-6">
+        <div class="card blog-box mb-4 mb-xl-0">
+            <div class="card-header">
+                <h4>Documentos normativos</h4>
+                <p>04-01-2024</p>
+            </div>
+            <div class="card-body">
+                <a href="#" class="h5">Resolución Ejecutiva Regional N.° 002-2024-GRH/GGR</a>
+                <p class="text-secondary">DESIGNAR TEMPORALMENTE, la JEFATURA DE LA SUB GERENCIA DE ABASTECIMIENTO DE LA GERENCIA REGIONAL DE...
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-sm-6">
+        <div class="card blog-box mb-4 mb-xl-0">
+            <div class="card-header">
+                <h4>Documentos normativos</h4>
+                <p>01-12-2023</p>
+            </div>
+            <div class="card-body">
+                <a href="#" class="h5">Resolución Ejecutiva Regional N.° 818-2023-GRH/GR</a>
+                <p class="text-secondary">DESIGNAR, a partir de la fecha al Econ. ALBERTO EBER, CONTRERAS MARIÑO, en el cargo de GERENTE REGIONAL DE...
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-sm-6">
+        <div class="card blog-box mb-4 mb-xl-0">
+            <div class="card-header">
+                <h4>Documentos normativos</h4>
+                <p>15-11-2024</p>
+            </div>
+            <div class="card-body">
+                <a href="#" class="h5">Resolución Ejecutiva Regional(Resolución Ejecutiva Regional N° 758-2023-GRH/GR)</a>
+                <p class="text-secondary">Resolución Ejecutiva Regional(Resolución Ejecutiva Regional N° 758-2023-GRH/GR)
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="row mt-3">
+    <div class="col-12 ">
+    <div class="position-absolute top-0 end-0">
+        <button class="btn btn-info btn-sm">Ver más documentos</button>
+    </div>
+
     </div>
 </div>
 </template>

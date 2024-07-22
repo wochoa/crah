@@ -549,7 +549,7 @@ export default {
     </section>
 
 
-    <section class="section" id="documentos" style="background-color: #d5d5d5 !important;">
+    <section class="section pt-4" id="documentos" style="background-color: #d5d5d5 !important;">
         <div class="container">
             <div class="container">
                  <Documentos />
