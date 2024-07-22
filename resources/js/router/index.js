@@ -7,7 +7,7 @@ const routes = [
         meta: {
             title: 'Crah',
         },
-        component: () => import('../views/crypto/portada.vue'),
+        component: () => import('../views/crah/portada.vue'),
     },
 
     // {
