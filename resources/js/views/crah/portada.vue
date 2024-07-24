@@ -201,63 +201,8 @@ export default {
                 </div>
                 <div class="col-lg-5 col-md-8 col-sm-10 ms-lg-auto">
                     <div class="card overflow-hidden mb-0 mt-5 mt-lg-0">
-                        <div class="card-header text-center">
-                            <h5 class="mb-0">Evento: Implementación del CRAH desconcentradas</h5>
-                        </div>
-                        <div class="card-body">
-                            <div class="text-center">
-                                <h5>Tiempo restante:</h5>
-                                <!-- <div class="mt-4">
-                                    <vue-countdown :time="15 * 24 * 60 * 60 * 1000" v-slot="{ days, hours, minutes, seconds }" tag="div" class="counter-number ico-countdown d-flex">
-                                        <div class="coming-box">
-                                            {{ days }}
-                                            <span>Days</span>
-                                        </div>
-                                        <div class="coming-box">
-                                            {{ hours }}
-                                            <span>Hours</span>
-                                        </div>
-                                        <div class="coming-box">
-                                            {{ minutes }}
-                                            <span>Minutes</span>
-                                        </div>
-                                        <div class="coming-box">
-                                            {{ seconds }}
-                                            <span>Seconds</span>
-                                        </div>
-                                    </vue-countdown>
-                                </div>
-
-                                <div class="mt-4">
-                                    <button type="button" class="btn btn-success w-md">
-                                        Inscribirme
-                                    </button>
-                                </div> -->
-
-                                <div class="mt-5">
-                                    <h5 class="fw-semibold">
-                                        Inscritos hasta la fecha
-                                    </h5>
-                                    <div class="clearfix mt-4">
-                                        <h5 class="float-end font-size-14">
-                                            87
-                                        </h5>
-                                    </div>
-                                    <div class="progress p-1 progress-xl softcap-progress">
-                                        <div class="progress-bar bg-info" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-label">
-                                                15 %
-                                            </div>
-                                        </div>
-                                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-label">
-                                                30 %
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <!-- succes -->
+                        <img :src="'https://scontent.flim14-1.fna.fbcdn.net/v/t39.30808-6/439223038_451001217450961_8269347793739996455_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFVPjEOLB4wW9O09kyMcSZMpcXtQwUiZjilxe1DBSJmOGUWF-EbDNM8I0_putU6_88&_nc_ohc=Alrtu-zkm3cQ7kNvgEwERKv&_nc_ht=scontent.flim14-1.fna&oh=00_AYBFEJPT2fOkl-YLjkLOT-i0N5Oh-DUDxZ5YAWE_0-hs_g&oe=66A42045'" alt="">
                     </div>
                 </div>
             </div>
@@ -284,7 +229,10 @@ export default {
                                     <div class="flex-grow-1">
                                         <h5 class="text-muted">Marco normativo</h5>
                                         <p class="text-muted text-truncate mb-0">Documentos de gestión</p>
-                                        <button class="btn btn-sm btn-danger">Hacer click</button>
+                                        <!-- <button class="btn btn-sm btn-danger">Hacer click</button> -->
+                                        <router-link to="/documentos/crah" class="btn btn-sm btn-danger">
+                                          Hacer click
+                                        </router-link>
                                     </div>
                                 </div>
                             </div>
@@ -302,7 +250,10 @@ export default {
                                     <div class="flex-grow-1">
                                         <h5 class="text-muted">proximo eventos</h5>
                                         <p class="text-muted text-truncate mb-0">Eventos CRAH</p>
-                                        <button class="btn btn-sm btn-danger">Hacer click</button>
+                                        <!-- <button class="btn btn-sm btn-danger">Hacer click</button> -->
+                                        <router-link to="/eventos/lista" class="btn btn-sm btn-danger">
+                                            Hacer click
+                                        </router-link>
                                     </div>
                                 </div>
                             </div>
@@ -537,6 +488,17 @@ export default {
                 </div>
             </div>
             <!-- end row -->
+            <div class="row mt-3">
+    <div class="col-12 ">
+        <div class="position-absolute top-0 end-0">
+            <!-- <button class="btn btn-info btn-sm">Ver más documentos</button> -->
+            <router-link to="noticias/lista" class="btn btn-success btn-sm">
+                Ver más noticias
+            </router-link>
+        </div>
+
+    </div>
+</div>
         </div>
         <!-- end container -->
     </section>

@@ -9,6 +9,21 @@ const routes = [
         },
         component: () => import('../views/crah/portada.vue'),
     },
+    {
+            path: '/documentos/crah',
+            meta: { title: 'Marco normativo'},
+            component: () => import('../views/crah/Marconormativo.vue'),
+    },
+    {
+        path: '/noticias/lista',
+        meta: { title: 'Listado de ntoicias'},
+        component: () => import('../views/crah/Listadonoticias.vue'),
+    },
+    {
+        path: '/eventos/lista',
+        meta: { title: 'Listado de eventos'},
+        component: () => import('../views/crah/Listaeventos.vue'),
+    },
 
     // {
     //     path: '/',
