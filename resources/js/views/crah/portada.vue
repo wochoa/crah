@@ -27,6 +27,7 @@ import Defensoria from '../../../images/crah/Defensoría_del_Pueblo.png';
 //miembros integranrtes
 import MiembrosInte from './Miembros.vue';
 import Documentos from './Documentos.vue';
+import Slidernoticias from './Carrouselnoticias.vue'
 
 export default {
     components: {
@@ -35,7 +36,8 @@ export default {
         ClientSlider,
         TimelineSlider,
         MiembrosInte,
-        Documentos
+        Documentos,
+        Slidernoticias
     },
     data() {
         return {
@@ -388,6 +390,7 @@ export default {
     <!-- Blog noticias  start -->
     <section class="section" id="noticias">
         <div class="container">
+
             <div class="row">
                 <div class="col-lg-12">
                     <div class="text-center mb-5">
@@ -397,12 +400,11 @@ export default {
                 </div>
             </div>
             <!-- end row -->
-
-            <div class="row">
+            <Slidernoticias />
+            <!-- <div class="row">
                 <div class="col-xl-4 col-sm-6">
                     <div class="card blog-box mb-4 mb-xl-0">
                         <div class="position-relative">
-                            <!-- <img :src="cryblog1" alt="" class="rounded img-fluid mx-auto d-block" /> -->
                             <img :src="'https://scontent.flim14-1.fna.fbcdn.net/v/t39.30808-6/439223038_451001217450961_8269347793739996455_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFVPjEOLB4wW9O09kyMcSZMpcXtQwUiZjilxe1DBSJmOGUWF-EbDNM8I0_putU6_88&_nc_ohc=Alrtu-zkm3cQ7kNvgEwERKv&_nc_ht=scontent.flim14-1.fna&oh=00_AYBFEJPT2fOkl-YLjkLOT-i0N5Oh-DUDxZ5YAWE_0-hs_g&oe=66A42045'" alt="" class="rounded img-fluid mx-auto d-block" />
                             <div class="badge bg-danger blog-badge font-size-11">
                                 Acitividad
@@ -431,7 +433,6 @@ export default {
                 <div class="col-xl-4 col-sm-6">
                     <div class="card blog-box mb-4 mb-xl-0">
                         <div class="position-relative">
-                            <!-- <img :src="cryblog2" alt="" class="rounded img-fluid mx-auto d-block" /> -->
                             <img :src="'https://scontent.flim14-1.fna.fbcdn.net/v/t39.30808-6/441866411_476265651591184_4588199416413517617_n.jpg?stp=dst-jpg_s600x600&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeESYCNb-hF4nPyzseaMGHBe7KkZ9zK7Yt_sqRn3Mrti3zgStl1YcFfU8AlpnHfBuXo&_nc_ohc=9xK6QOej9QgQ7kNvgEugys4&_nc_ht=scontent.flim14-1.fna&oh=00_AYCMAhY1JOOjiCdq5sLUF9Ha1qcfaIZ6xZraAzU4p-mpqg&oe=66A41B22'" alt="" class="rounded img-fluid mx-auto d-block" />
                             <div class="badge bg-danger blog-badge font-size-11">
                                 actividad
@@ -460,7 +461,7 @@ export default {
                 <div class="col-xl-4 col-sm-6">
                     <div class="card blog-box mb-4 mb-xl-0">
                         <div class="position-relative">
-                            <!-- <img :src="cryblog3" alt="" class="rounded img-fluid mx-auto d-block" /> -->
+
                             <img :src="'https://scontent.flim14-1.fna.fbcdn.net/v/t39.30808-6/441910463_476268344924248_2499813405112068058_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFTCEfXU3ngpreUp71RHjaYU0Riq6QH0QZTRGKrpAfRBsxe7iTaChyaLHIXKmDOCRA&_nc_ohc=ZucByv8bnLwQ7kNvgHPyrnq&_nc_ht=scontent.flim14-1.fna&oh=00_AYC-Z0qSyEQXGnobQ5PyIdOaBEsOXvI4xc1ubgBt68Qr5Q&oe=66A451EB'" alt="" class="rounded img-fluid mx-auto d-block" />
                             <div class="badge bg-danger blog-badge font-size-11">
                                 Actividad
@@ -486,7 +487,7 @@ export default {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- end row -->
             <div class="row mt-3">
     <div class="col-12 ">
