@@ -188,12 +188,6 @@ export default {
                             Comisión Regional Anticorrupción de Huánuco
                         </h1>
                         <p class="h4">Implementaremos lineamientos y estándares de cumplimiento en materia de integridad y lucha contra la corrupción en el departamento de Huánuco...</p>
-                        <!-- {{ escribirEnPantalla("Implementaremos lineamientos y estándares de cumplimiento en materia de integridad y lucha contra la corrupción en el departamento de Huánuco...")}} -->
-                        <!-- <p class="font-size-20 line anim-typewriter">
-                            Implementaremos lineamientos y estándares de cumplimiento en materia de integridad y lucha contra la corrupción en el departamento de Huánuco
-                        </p> -->
-                        <!-- <p id="titulo" class="font-size-20">
-                        </p> -->
 
                         <div class="button-items mt-4">
                             <a href="#" class="btn btn-dark me-2">Leer más</a>
@@ -302,37 +296,65 @@ export default {
             <div class="row align-items-center">
                 <div class="col-lg-5">
                     <div class="text-muted">
-                        <h4>Presentación</h4>
-                        <p style="text-align: justify;">
-                            La corrupción en nuestro país, desde el periodo colonial hasta nuestros días, ha sido un fenómeno insidioso, amplio, variado y global que no sólo comprende actividades públicas sino también privadas, como el ofrecimiento y la recepción de sobornos; la malversación y mala asignación de fondos y gastos públicos; los escándalos financieros y políticos; el fraude electoral, el tráfico de influencias y otras trasgresiones administrativas como el financiamiento ilegal de partidos políticos en busca de favores indebidos, los cuales limitan el desarrollo de nuestro país.
-                        </p>
-                        <!-- <p class="mb-4">
-                It would be necessary to have uniform
-                pronunciation.
-              </p> -->
-
-                        <div class="button-items">
-                            <!-- <a href="https://themesbrand.com/skote-django/layouts/crypto-ico-landing.html" class="btn btn-danger me-2 ">Ver miembros</a> -->
-                            <router-link to="/miembroscrah" class="btn btn-danger me-2 ">
-                                Ver miembros
+                        <h4 class="card-title mb-5">Objetivos</h4>
+                        <ul class="verti-timeline list-unstyled">
+                            <li class="event-list">
+                                <div class="event-timeline-dot">
+                                    <i class="bx bx-right-arrow-circle font-size-18 bx-fade-right"></i>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="me-3">
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <div style="text-align: justify;">Fortalecer la implementación de lineamientos y los estándares de cumplimiento en materia de integridad y lucha contra la corrupción en la Región Huánuco. </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="event-list">
+                                <div class="event-timeline-dot">
+                                    <i class="bx bx-right-arrow-circle font-size-18 bx-fade-right"></i>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="me-3">
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <div style="text-align: justify;">
+                                            Mejorar la capacidad de Articulación de las entidades de la Región Huánuco, con la finalidad de prevenir, investigar y sancionar la corrupción en el marco de sus competencias, asegurando la rendición de cuentas de manera periódica.
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="event-list">
+                                <div class="event-timeline-dot">
+                                    <i class="bx bx-right-arrow-circle font-size-18 bx-fade-right"></i>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="me-3">
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <div style="text-align: justify;">Incentivar una cultura de valores y principios de integridad en la región Huánuco.</div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="event-list">
+                                <div class="event-timeline-dot">
+                                    <i class="bx bx-right-arrow-circle font-size-18 bx-fade-right"></i>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="me-3">
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <div style="text-align: justify;">Obtener como comisión un rol protagónico dentro de la sociedad, manteniendo firme la lucha contra la corrupción en la Región Huánuco, tomando acciones concretas que sean reconocidas por la población.</div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="text-center mt-4">
+                            <!-- <a href="javascript: void(0);" class="btn btn-primary btn-sm">Load More</a> -->
+                            <router-link to="/miembroscrah" class="btn btn-dark btn-sm">
+                                Ver miembros del CRAH
                             </router-link>
-                            <!-- <a href="#" class="btn btn-outline-primary">How It work</a> -->
                         </div>
-
-                        <!-- <div class="row mt-4">
-                <div class="col-lg-4 col-6">
-                  <div class="mt-4">
-                    <h4>$ 6.2 M</h4>
-                    <p>Invest amount</p>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-6">
-                  <div class="mt-4">
-                    <h4>16245</h4>
-                    <p>Users</p>
-                  </div>
-                </div>
-              </div> -->
 
                     </div>
                 </div>
@@ -341,14 +363,14 @@ export default {
                     <div class="mt-4 mt-lg-0">
                         <div class="row">
                             <div class="col-sm-6">
-                                <div class="card border shadow-sm bg-danger">
+                                <div class="card border shadow-sm bg-secondary">
                                     <div class="card-body">
                                         <div class="mb-3">
                                             <i class="mdi mdi-bullseye h2 text-white"></i>
                                         </div>
                                         <h5 class="text-white">Misión</h5>
-                                        <p class="text-white mb-0 text-justyfi">
-                                            Trabajar incansablemente para erradicar la corrupción en todas sus formas, promoviendo la integridad y la transparencia en la administración pública y la sociedad.
+                                        <p class="text-white mb-0" style="text-align: justify;">
+                                            Articular iniciativas, objetivos, planes y acciones en la lucha frontal contra la Corrupción en la Región Huánuco, que tengo efecto en la prevención, investigación y sanción de todo de tipo de actos de corrupción en la Administración Pública. Acciones que en su esencia deben aportar a la mejora de una buena administración pública con contenido ético y profesionalismo de los funcionarios y servidores públicos, y en favor del ciudadano.
                                         </p>
                                     </div>
                                     <!-- <div class="card-footer bg-transparent border-top text-center">
@@ -357,14 +379,14 @@ export default {
                                 </div>
                             </div>
                             <div class="col-sm-6">
-                                <div class="card border shadow-sm mt-lg-5 bg-danger">
+                                <div class="card border shadow-sm mt-lg-5 bg-secondary">
                                     <div class="card-body">
                                         <div class="mb-3">
                                             <i class="mdi mdi-eye-circle h2 text-white"></i>
                                         </div>
                                         <h5 class="text-white">Visión</h5>
-                                        <p class="text-white mb-0">
-                                            Ser un referente regional en la lucha contra la corrupción, contribuyendo a una sociedad justa, ética y libre de prácticas corruptas, donde impera la confianza y la honestidad.
+                                        <p class="text-white mb-0 " style="text-align: justify;">
+                                            Procurar en la Región Huánuco que la administración pública se encamine libre de todo acto de corrupción, recuperando los valores éticos en la función pública en el marco del Estado Constitucional de Derecho y el respeto irrestricto de los Derechos Fundamentales, donde la administración pública sea transparente, objetivo e imparcial, y que el ciudadano tenga las mismas condiciones y oportunidad para el desarrollo de sus derechos fundamentales.
                                         </p>
                                     </div>
                                     <!-- <div class="card-footer bg-transparent border-top text-center">

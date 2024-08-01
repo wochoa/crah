@@ -16,7 +16,7 @@
             <div class="card shadow-sm " style="height: 390px;">
                 <img :src="'http://gestionportales.regionhuanuco.gob.pe/storage/'+prim.img1" class="card-img-top" alt="...">
                 <div class="card-body pb-1">
-                    <router-link :to="'/noticias/'+prim.idnoticias+'/detalles'">
+                    <router-link :to="'/noticias/'+prim.idnoticias+'/detalles'" class="text-dark">
                         <h6>{{ decodeHtml(prim.titulo)}}</h6>
                     </router-link>
 
@@ -26,7 +26,7 @@
                 <div class="card-footer d-flex justify-content-between align-items-center pb-1 pt-1">
                     <div class="btn-group">
                         <!-- <a href="#" class="btn btn-primary btn-sm">Leer más</a> -->
-                        <router-link :to="'/noticias/'+prim.idnoticias+'/detalles'" class="btn btn-primary btn-sm">Leer más</router-link>
+                        <router-link :to="'/noticias/'+prim.idnoticias+'/detalles'" class="btn btn-dark btn-sm">Leer más</router-link>
                         <!-- <a href="#" class="">Another link</a> -->
                     </div>
                     <small class="text-muted">{{ prim.fecha}}</small>
