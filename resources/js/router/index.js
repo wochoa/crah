@@ -15,7 +15,7 @@ const routes = [
             component: () => import('../views/crah/Marconormativo.vue'),
     },
     {
-        path: '/noticias/lista',
+        path: '/noticiasall',
         meta: { title: 'Listado de ntoicias'},
         component: () => import('../views/crah/Listadonoticias.vue'),
     },

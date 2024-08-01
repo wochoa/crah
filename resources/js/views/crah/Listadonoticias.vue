@@ -8,7 +8,7 @@ import img2 from '../../../images/small/img-2.jpg';
 import img4 from '../../../images/small/img-4.jpg';
 import img6 from '../../../images/small/img-6.jpg';
 import img7 from '../../../images/small/img-7.jpg';
-
+import axios from 'axios';
 export default {
     page: {
         title: "Blog-grid",
@@ -36,8 +36,35 @@ export default {
                     active: true,
                 },
             ],
+            data_noticias: {},
         };
     },
+    mounted() {
+        // console.log('Current Swiper instance object', this.swiper);
+        // this.swiper.slideTo(0, 1000, false);
+        this.noticiasini();
+    },
+    methods: {
+        noticiasini() {
+            var url = '/allnoticias';
+            axios.get(url)
+                .then(response => {
+                    this.data_noticias = response.data.listanoticias;
+
+                });
+        },
+        decodeHtml(html) {
+            // console.log(html);
+            var txt = document.createElement("textarea");
+            txt.innerHTML = html;
+            return txt.value;
+        },
+        recorta_cad(texto) {
+            var substr = texto.substr(7);
+            return substr;
+        }
+    }
+
 };
 </script>
 
@@ -63,61 +90,24 @@ export default {
                                                 </div>
                                             </div>
 
-                                            <!-- <div class="col-8">
-                      <div class="float-end">
-                        <ul class="nav nav-pills">
-                          <li class="nav-item">
-                            <a
-                              class="nav-link disabled"
-                              href="#"
-                              tabindex="-1"
-                              aria-disabled="true"
-                              >View :</a
-                            >
-                          </li>
-                          <li
-                            class="nav-item"
-                            data-toggle="tooltip"
-                            data-placement="top"
-                            title="List"
-                          >
-                            <router-link class="nav-link" to="/blog/list">
-                              <i class="mdi mdi-format-list-bulleted"></i>
-                            </router-link>
-                          </li>
-                          <li
-                            class="nav-item"
-                            data-toggle="tooltip"
-                            data-placement="top"
-                            title="Grid"
-                          >
-                            <router-link
-                              class="nav-link active text-white"
-                              to="/blog/grid"
-                            >
-                              <i class="mdi mdi-view-grid-outline"></i>
-                            </router-link>
-                          </li>
-                        </ul>
-                      </div>
-                    </div> -->
                                         </div>
                                         <!-- end row -->
 
                                         <hr class="mb-4" />
 
                                         <div class="row">
-                                            <div class="col-sm-4">
+                                            <div class="col-sm-4" v-for="(prim,index) in data_noticias.data" :key="index">
                                                 <div class="card p-1 border shadow-none">
-                                                    <div class="p-3">
+                                                    <!-- <div class="p-3">
                                                         <h5>
                                                             <router-link to="/blog/detail" class="text-dark">Beautiful Day with Friends</router-link>
                                                         </h5>
                                                         <p class="text-muted mb-0">10 Apr, 2020</p>
-                                                    </div>
+                                                    </div> -->
 
                                                     <div class="position-relative">
-                                                        <img :src="img2" alt="" class="img-thumbnail" />
+                                                        <!-- <img :src="img2" alt="" class="img-thumbnail" /> -->
+                                                        <img :src="'http://gestionportales.regionhuanuco.gob.pe/storage/'+recorta_cad(prim.img1)" class="img-thumbnail">
                                                     </div>
 
                                                     <div class="p-3">
@@ -125,243 +115,30 @@ export default {
                                                             <li class="list-inline-item me-3">
                                                                 <a href="#" class="text-muted">
                                                                     <i class="bx bx-purchase-tag-alt align-middle text-muted me-1"></i>
-                                                                    Project
+                                                                    Noticias
                                                                 </a>
                                                             </li>
                                                             <li class="list-inline-item me-3">
                                                                 <a href="#" class="text-muted">
                                                                     <i class="bx bx-comment-dots align-middle text-muted me-1"></i>
-                                                                    12 Comments
+                                                                    {{ prim.fechapubli }}
                                                                 </a>
                                                             </li>
                                                         </ul>
                                                         <p>
-                                                            Neque porro quisquam est, qui dolorem ipsum quia
-                                                            dolor sit amet
+                                                            {{ decodeHtml(prim.titulo) }}
                                                         </p>
 
                                                         <div>
-                                                            <a href="#" class="text-primary">Read more <i class="mdi mdi-arrow-right"></i></a>
+                                                            <!-- <a href="#" class="text-primary">Leer más <i class="mdi mdi-arrow-right"></i></a> -->
+                                                            <router-link :to="'/noticias/'+prim.idnoticias+'/detalles'">
+                                                                Leer más <i class="mdi mdi-arrow-right"></i>
+                                                            </router-link>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            <div class="col-sm-4">
-                                                <div class="card p-1 border shadow-none">
-                                                    <div class="p-3">
-                                                        <h5>
-                                                            <router-link to="/blog/detail" class="text-dark">Drawing a sketch</router-link>
-                                                        </h5>
-                                                        <p class="text-muted mb-0">24 Mar, 2020</p>
-                                                    </div>
-
-                                                    <div class="position-relative">
-                                                        <img :src="img6" alt="" class="img-thumbnail" />
-
-                                                        <div class="blog-play-icon">
-                                                            <a href="javascript: void(0);" class="avatar-sm d-block mx-auto">
-                                                                <span class="avatar-title rounded-circle font-size-18"><i class="mdi mdi-play"></i></span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="p-3">
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item me-3">
-                                                                <a href="#" class="text-muted">
-                                                                    <i class="bx bx-purchase-tag-alt align-middle text-muted me-1"></i>
-                                                                    Development
-                                                                </a>
-                                                            </li>
-                                                            <li class="list-inline-item me-3">
-                                                                <a href="#" class="text-muted">
-                                                                    <i class="bx bx-comment-dots align-middle text-muted me-1"></i>
-                                                                    08 Comments
-                                                                </a>
-                                                            </li>
-                                                        </ul>
-
-                                                        <p>
-                                                            At vero eos et accusamus et iusto odio
-                                                            dignissimos ducimus quos
-                                                        </p>
-
-                                                        <div>
-                                                            <a href="#" class="text-primary">Read more <i class="mdi mdi-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-sm-4">
-                                                <div class="card p-1 border shadow-none">
-                                                    <div class="p-3">
-                                                        <h5>
-                                                            <router-link to="/blog/detail" class="text-dark">Drawing a sketch</router-link>
-                                                        </h5>
-                                                        <p class="text-muted mb-0">24 Mar, 2020</p>
-                                                    </div>
-
-                                                    <div class="position-relative">
-                                                        <img :src="img6" alt="" class="img-thumbnail" />
-
-                                                        <div class="blog-play-icon">
-                                                            <a href="javascript: void(0);" class="avatar-sm d-block mx-auto">
-                                                                <span class="avatar-title rounded-circle font-size-18"><i class="mdi mdi-play"></i></span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="p-3">
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item me-3">
-                                                                <a href="#" class="text-muted">
-                                                                    <i class="bx bx-purchase-tag-alt align-middle text-muted me-1"></i>
-                                                                    Development
-                                                                </a>
-                                                            </li>
-                                                            <li class="list-inline-item me-3">
-                                                                <a href="#" class="text-muted">
-                                                                    <i class="bx bx-comment-dots align-middle text-muted me-1"></i>
-                                                                    08 Comments
-                                                                </a>
-                                                            </li>
-                                                        </ul>
-
-                                                        <p>
-                                                            At vero eos et accusamus et iusto odio
-                                                            dignissimos ducimus quos
-                                                        </p>
-
-                                                        <div>
-                                                            <a href="#" class="text-primary">Read more <i class="mdi mdi-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-sm-4">
-                                                <div class="card p-1 border shadow-none">
-                                                    <div class="p-3">
-                                                        <h5>
-                                                            <router-link to="/blog/detail" class="text-dark">Riding bike on road</router-link>
-                                                        </h5>
-                                                        <p class="text-muted mb-0">10 Apr, 2020</p>
-                                                    </div>
-
-                                                    <div class="position-relative">
-                                                        <img :src="img1" alt="" class="img-thumbnail" />
-                                                    </div>
-
-                                                    <div class="p-3">
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item me-3">
-                                                                <a href="#" class="text-muted">
-                                                                    <i class="bx bx-purchase-tag-alt align-middle text-muted me-1"></i>
-                                                                    Travel
-                                                                </a>
-                                                            </li>
-                                                            <li class="list-inline-item me-3">
-                                                                <a href="#" class="text-muted">
-                                                                    <i class="bx bx-comment-dots align-middle text-muted me-1"></i>
-                                                                    08 Comments
-                                                                </a>
-                                                            </li>
-                                                        </ul>
-                                                        <p>
-                                                            Itaque earum rerum hic tenetur a sapiente
-                                                            delectus ut aut
-                                                        </p>
-
-                                                        <div>
-                                                            <a href="#" class="text-primary">Read more <i class="mdi mdi-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-sm-4">
-                                                <div class="card p-1 border shadow-none">
-                                                    <div class="p-3">
-                                                        <h5>
-                                                            <router-link to="/blog/detail" class="text-dark">Project discussion with team</router-link>
-                                                        </h5>
-                                                        <p class="text-muted mb-0">24 Mar, 2020</p>
-                                                    </div>
-
-                                                    <div class="position-relative">
-                                                        <img :src="img2" alt="" class="img-thumbnail" />
-                                                    </div>
-
-                                                    <div class="p-3">
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item me-3">
-                                                                <a href="#" class="text-muted">
-                                                                    <i class="bx bx-purchase-tag-alt align-middle text-muted me-1"></i>
-                                                                    Development
-                                                                </a>
-                                                            </li>
-                                                            <li class="list-inline-item me-3">
-                                                                <a href="#" class="text-muted">
-                                                                    <i class="bx bx-comment-dots align-middle text-muted me-1"></i>
-                                                                    08 Comments
-                                                                </a>
-                                                            </li>
-                                                        </ul>
-
-                                                        <p>
-                                                            Sed ut perspiciatis unde omnis iste eaque natus
-                                                            error sit
-                                                        </p>
-
-                                                        <div>
-                                                            <a href="#" class="text-primary">Read more <i class="mdi mdi-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-sm-4">
-                                                <div class="card p-1 border shadow-none">
-                                                    <div class="p-3">
-                                                        <h5>
-                                                            <router-link to="/blog/detail" class="text-dark">Project discussion with team</router-link>
-                                                        </h5>
-                                                        <p class="text-muted mb-0">24 Mar, 2020</p>
-                                                    </div>
-
-                                                    <div class="position-relative">
-                                                        <img :src="img2" alt="" class="img-thumbnail" />
-                                                    </div>
-
-                                                    <div class="p-3">
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item me-3">
-                                                                <a href="#" class="text-muted">
-                                                                    <i class="bx bx-purchase-tag-alt align-middle text-muted me-1"></i>
-                                                                    Development
-                                                                </a>
-                                                            </li>
-                                                            <li class="list-inline-item me-3">
-                                                                <a href="#" class="text-muted">
-                                                                    <i class="bx bx-comment-dots align-middle text-muted me-1"></i>
-                                                                    08 Comments
-                                                                </a>
-                                                            </li>
-                                                        </ul>
-
-                                                        <p>
-                                                            Sed ut perspiciatis unde omnis iste eaque natus
-                                                            error sit
-                                                        </p>
-
-                                                        <div>
-                                                            <a href="#" class="text-primary">Read more <i class="mdi mdi-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
                                         </div>
 
                                         <hr class="my-4" />
@@ -396,93 +173,7 @@ export default {
                             </div>
                         </div>
                     </b-tab>
-                    <b-tab title="Lista total por fechas">
-                        <div>
-                            <div class="row justify-content-center">
-                                <div class="col-xl-10">
-                                    <h5>Listado por fechas</h5>
 
-                                    <div class="mt-5">
-                                        <div class="d-flex flex-wrap">
-                                            <div class="me-2">
-                                                <h4>2020</h4>
-                                            </div>
-                                            <div class="ml-auto">
-                                                <span class="badge badge-soft-success rounded-pill float-end ml-1 font-size-12">03</span>
-                                            </div>
-                                        </div>
-                                        <hr class="mt-2" />
-
-                                        <div class="list-group list-group-flush">
-                                            <router-link to="/blog/detail" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Beautiful
-                                                Day with Friends</router-link>
-
-                                            <router-link to="/blog/detail" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Drawing a
-                                                sketch</router-link>
-
-                                            <router-link to="/blog/detail" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Project
-                                                discussion with team</router-link>
-                                        </div>
-                                    </div>
-
-                                    <div class="mt-5">
-                                        <div class="d-flex flex-wrap">
-                                            <div class="me-2">
-                                                <h4>2019</h4>
-                                            </div>
-                                            <div class="ml-auto">
-                                                <span class="badge badge-soft-success rounded-pill float-end ml-1 font-size-12">06</span>
-                                            </div>
-                                        </div>
-                                        <hr class="mt-2" />
-
-                                        <div class="list-group list-group-flush">
-                                            <router-link to="/blog/detail" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Coffee
-                                                with Friends</router-link>
-
-                                            <router-link to="/blog/detail" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Neque
-                                                porro quisquam est</router-link>
-
-                                            <router-link to="/blog/detail" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Quis autem
-                                                vel eum iure</router-link>
-
-                                            <router-link to="/blog/detail" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Cras mi eu
-                                                turpis</router-link>
-
-                                            <router-link to="/blog/detail" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Drawing a
-                                                sketch</router-link>
-
-                                            <router-link to="/blog/detail" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Project
-                                                discussion with team</router-link>
-                                        </div>
-                                    </div>
-
-                                    <div class="mt-5">
-                                        <div class="d-flex flex-wrap">
-                                            <div class="me-2">
-                                                <h4>2018</h4>
-                                            </div>
-                                            <div class="ml-auto">
-                                                <span class="badge badge-soft-success rounded-pill float-end ml-1 font-size-12">03</span>
-                                            </div>
-                                        </div>
-                                        <hr class="mt-2" />
-
-                                        <div class="list-group list-group-flush">
-                                            <router-link to="/blog/details" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Beautiful
-                                                Day with Friends</router-link>
-
-                                            <router-link to="/blog/details" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Drawing a
-                                                sketch</router-link>
-
-                                            <router-link to="/blog/details" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Project
-                                                discussion with team</router-link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </b-tab>
                 </b-tabs>
                 <!-- Nav tabs -->
             </div>

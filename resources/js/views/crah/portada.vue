@@ -432,7 +432,7 @@ export default {
                 <div class="col-12 ">
                     <div class="position-absolute top-0 end-0">
                         <!-- <button class="btn btn-info btn-sm">Ver más documentos</button> -->
-                        <router-link to="noticias/lista" class="btn btn-success btn-sm">
+                        <router-link to="/noticiasall" class="btn btn-success btn-sm">
                             Ver más noticias
                         </router-link>
                     </div>

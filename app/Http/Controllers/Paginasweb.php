@@ -124,7 +124,7 @@ class Paginasweb extends Controller
 
         $portalesweb=DB::table('direcciones_web')->where('dns_direcciones_web',$enlace)->value('iddirecciones_web');
 
-        $publicacion=DB::table('noticias')->where(['activo'=>1,'iddirecciones_web'=>$portalesweb])->where('idnoticias','>','6170')->orderBy('idnoticias','DESC')->paginate(8);
+        $publicacion=DB::table('noticias')->where(['activo'=>1,'iddirecciones_web'=>$portalesweb])->where('idnoticias','>','6170')->orderBy('idnoticias','DESC')->paginate(9);
         // for($i=0;$i<count($publicacion);$i++)
         // {
         //     //$simplificar=substr($publicacion[$i]->titulo,0,60);
