@@ -204,7 +204,7 @@ export default {
                 <div class="col-lg-5 col-md-8 col-sm-10 ms-lg-auto">
                     <div class="card overflow-hidden mb-0 mt-5 mt-lg-0">
                         <!-- succes -->
-                        <img :src="'https://scontent.flim14-1.fna.fbcdn.net/v/t39.30808-6/439223038_451001217450961_8269347793739996455_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFVPjEOLB4wW9O09kyMcSZMpcXtQwUiZjilxe1DBSJmOGUWF-EbDNM8I0_putU6_88&_nc_ohc=Alrtu-zkm3cQ7kNvgEwERKv&_nc_ht=scontent.flim14-1.fna&oh=00_AYBFEJPT2fOkl-YLjkLOT-i0N5Oh-DUDxZ5YAWE_0-hs_g&oe=66A42045'" alt="">
+                        <img :src="'https://gestionportales.regionhuanuco.gob.pe/storage/notas-prensa/41-1-20240724-123140.jpg'" alt="">
                     </div>
                 </div>
             </div>
@@ -233,7 +233,7 @@ export default {
                                         <p class="text-muted text-truncate mb-0">Documentos de gestión</p>
                                         <!-- <button class="btn btn-sm btn-danger">Hacer click</button> -->
                                         <router-link to="/documentos/crah" class="btn btn-sm btn-danger">
-                                          Hacer click
+                                            Hacer click
                                         </router-link>
                                     </div>
                                 </div>
@@ -312,7 +312,10 @@ export default {
               </p> -->
 
                         <div class="button-items">
-                            <a href="https://themesbrand.com/skote-django/layouts/crypto-ico-landing.html" class="btn btn-danger me-2 ">Ver miembros</a>
+                            <!-- <a href="https://themesbrand.com/skote-django/layouts/crypto-ico-landing.html" class="btn btn-danger me-2 ">Ver miembros</a> -->
+                            <router-link to="/miembroscrah" class="btn btn-danger me-2 ">
+                                Ver miembros
+                            </router-link>
                             <!-- <a href="#" class="btn btn-outline-primary">How It work</a> -->
                         </div>
 
@@ -401,105 +404,19 @@ export default {
             </div>
             <!-- end row -->
             <Slidernoticias />
-            <!-- <div class="row">
-                <div class="col-xl-4 col-sm-6">
-                    <div class="card blog-box mb-4 mb-xl-0">
-                        <div class="position-relative">
-                            <img :src="'https://scontent.flim14-1.fna.fbcdn.net/v/t39.30808-6/439223038_451001217450961_8269347793739996455_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFVPjEOLB4wW9O09kyMcSZMpcXtQwUiZjilxe1DBSJmOGUWF-EbDNM8I0_putU6_88&_nc_ohc=Alrtu-zkm3cQ7kNvgEwERKv&_nc_ht=scontent.flim14-1.fna&oh=00_AYBFEJPT2fOkl-YLjkLOT-i0N5Oh-DUDxZ5YAWE_0-hs_g&oe=66A42045'" alt="" class="rounded img-fluid mx-auto d-block" />
-                            <div class="badge bg-danger blog-badge font-size-11">
-                                Acitividad
-                            </div>
-                        </div>
 
-                        <div class="mt-4 text-muted p-2">
-                            <p class="mb-2">
-                                <i class="bx bx-calendar me-1"></i> 19 Abril,
-                                2024
-                            </p>
-                            <h5 class="mb-3">
-                                ANTONIO PULGAR ACUDE A CITACIÓN DE COMISIÓN REGIONAL ANTICORRUPCIÓN
-                            </h5>
-                            <p>
-                                Los miembros de la Comisión Regional Anticorrupción de Huánuco (CRAH) presidida por el Dr. Jaime Gerónimo De la Cruz, realizaron una sesión extraordinaria en donde tuvieron la participación del Gobernador Regional de Huánuco, Antonio Pulgar Lucas.
-                            </p>
-
-                            <div>
-                                <a href="#">Leer más</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-4 col-sm-6">
-                    <div class="card blog-box mb-4 mb-xl-0">
-                        <div class="position-relative">
-                            <img :src="'https://scontent.flim14-1.fna.fbcdn.net/v/t39.30808-6/441866411_476265651591184_4588199416413517617_n.jpg?stp=dst-jpg_s600x600&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeESYCNb-hF4nPyzseaMGHBe7KkZ9zK7Yt_sqRn3Mrti3zgStl1YcFfU8AlpnHfBuXo&_nc_ohc=9xK6QOej9QgQ7kNvgEugys4&_nc_ht=scontent.flim14-1.fna&oh=00_AYCMAhY1JOOjiCdq5sLUF9Ha1qcfaIZ6xZraAzU4p-mpqg&oe=66A41B22'" alt="" class="rounded img-fluid mx-auto d-block" />
-                            <div class="badge bg-danger blog-badge font-size-11">
-                                actividad
-                            </div>
-                        </div>
-
-                        <div class="mt-4 text-muted p-2">
-                            <p class="mb-2">
-                                <i class="bx bx-calendar me-1"></i> 29 Mayo,
-                                2024
-                            </p>
-                            <h5 class="mb-3">LA CORRUPCIÓN ES SINÓNIMO DE VIOLACIÓN DE DERECHOS HUMANOS</h5>
-                            <p>
-                                Fiscal Anticorrupción, Jeremías Rojas Velásquez:
-                                “LA CORRUPCIÓN ES SINÓNIMO DE VIOLACIÓN DE DERECHOS HUMANOS”
-                                Comisión Regional Anticorrupción de Huánuco realiza charla para funcionarios de la Municipalidad Provincial...
-                            </p>
-
-                            <div>
-                                <a href="#">Leer más</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-4 col-sm-6">
-                    <div class="card blog-box mb-4 mb-xl-0">
-                        <div class="position-relative">
-
-                            <img :src="'https://scontent.flim14-1.fna.fbcdn.net/v/t39.30808-6/441910463_476268344924248_2499813405112068058_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFTCEfXU3ngpreUp71RHjaYU0Riq6QH0QZTRGKrpAfRBsxe7iTaChyaLHIXKmDOCRA&_nc_ohc=ZucByv8bnLwQ7kNvgHPyrnq&_nc_ht=scontent.flim14-1.fna&oh=00_AYC-Z0qSyEQXGnobQ5PyIdOaBEsOXvI4xc1ubgBt68Qr5Q&oe=66A451EB'" alt="" class="rounded img-fluid mx-auto d-block" />
-                            <div class="badge bg-danger blog-badge font-size-11">
-                                Actividad
-                            </div>
-                        </div>
-
-                        <div class="mt-4 text-muted p-2">
-                            <p class="mb-2">
-                                <i class="bx bx-calendar me-1"></i> 29 Mayo,
-                                2024
-                            </p>
-                            <h5 class="mb-3">
-                                La integridad pública y el código de la ética como fundamento de la función pública
-                            </h5>
-                            <p>
-                                Con el tema: “La integridad pública y el código de la ética como fundamento de la función pública”
-                                REPRESENTANTE DE LA COMISIÓN REGIONAL ANTICORRUPCIÓN BRINDA CHARLA A FUNCIONARIOS DEL GOBIERNO REGONAL DE HUÁNUCO..
-                            </p>
-
-                            <div>
-                                <a href="#">Leer más</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
             <!-- end row -->
             <div class="row mt-3">
-    <div class="col-12 ">
-        <div class="position-absolute top-0 end-0">
-            <!-- <button class="btn btn-info btn-sm">Ver más documentos</button> -->
-            <router-link to="noticias/lista" class="btn btn-success btn-sm">
-                Ver más noticias
-            </router-link>
-        </div>
+                <div class="col-12 ">
+                    <div class="position-absolute top-0 end-0">
+                        <!-- <button class="btn btn-info btn-sm">Ver más documentos</button> -->
+                        <router-link to="noticias/lista" class="btn btn-success btn-sm">
+                            Ver más noticias
+                        </router-link>
+                    </div>
 
-    </div>
-</div>
+                </div>
+            </div>
         </div>
         <!-- end container -->
     </section>
@@ -511,18 +428,15 @@ export default {
         </div>
     </section>
 
-
     <section class="section pt-4" id="documentos" style="background-color: #d5d5d5 !important;">
         <div class="container">
             <div class="container">
-                 <Documentos />
+                <Documentos />
             </div>
         </div>
         <!-- end container -->
     </section>
     <!-- Features end -->
-
-
 
     <!-- Faqs instrituciones miembros del CRAH start -->
     <section class="section" id="Miembroscra">

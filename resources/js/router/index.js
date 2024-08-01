@@ -29,6 +29,11 @@ const routes = [
         meta: { title: 'Listado de eventos'},
         component: () => import('../views/crah/detallenoticias.vue'),
     },
+    {
+        path: '/miembroscrah',
+        meta: { title: 'Listado de miembros del CRAH'},
+        component: () => import('../views/crah/Listadomiembros.vue'),
+    },
 
     // {
     //     path: '/',
