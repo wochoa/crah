@@ -169,10 +169,9 @@ export default {
                     </li>
                 </ul>
 
-                <div class="ms-lg-2">
-                    <!-- <a href="/login" class="btn btn-outline-success w-xs">Ingresar</a> -->
+                <!-- <div class="ms-lg-2">
                     <router-link to="/login" class="btn btn-dark w-xs">Ingresar</router-link>
-                </div>
+                </div> -->
             </div>
         </div>
     </nav>

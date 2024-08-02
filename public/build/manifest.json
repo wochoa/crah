@@ -3,11 +3,11 @@
     "file": "css/Header.min.css",
     "src": "Header.css"
   },
-  "_Header-69e92de0.js": {
+  "_Header-15727d95.js": {
     "css": [
       "css/Header.min.css"
     ],
-    "file": "assets/Header-69e92de0.js",
+    "file": "assets/Header-15727d95.js",
     "imports": [
       "resources/js/app.js",
       "_logo-dark-5cfa2f4b.js"
@@ -372,9 +372,9 @@
     "src": "resources/js/views/account/login.vue"
   },
   "resources/js/views/crah/Listadomiembros.vue": {
-    "file": "assets/Listadomiembros-7a7ecd6b.js",
+    "file": "assets/Listadomiembros-647d1f8d.js",
     "imports": [
-      "_Header-69e92de0.js",
+      "_Header-15727d95.js",
       "_vue3-datepicker-ad05e99e.js",
       "_carlosconsejero-de48764e.js",
       "resources/js/app.js",
@@ -384,9 +384,9 @@
     "src": "resources/js/views/crah/Listadomiembros.vue"
   },
   "resources/js/views/crah/Listadonoticias.vue": {
-    "file": "assets/Listadonoticias-8aaa6f07.js",
+    "file": "assets/Listadonoticias-6c5443c8.js",
     "imports": [
-      "_Header-69e92de0.js",
+      "_Header-15727d95.js",
       "_img-7-4d91fab5.js",
       "_index-62da23e9.js",
       "resources/js/app.js",
@@ -396,9 +396,9 @@
     "src": "resources/js/views/crah/Listadonoticias.vue"
   },
   "resources/js/views/crah/Listaeventos.vue": {
-    "file": "assets/Listaeventos-b1de771d.js",
+    "file": "assets/Listaeventos-6eeafec7.js",
     "imports": [
-      "_Header-69e92de0.js",
+      "_Header-15727d95.js",
       "_img-7-4d91fab5.js",
       "resources/js/app.js",
       "_logo-dark-5cfa2f4b.js"
@@ -407,9 +407,9 @@
     "src": "resources/js/views/crah/Listaeventos.vue"
   },
   "resources/js/views/crah/Marconormativo.vue": {
-    "file": "assets/Marconormativo-d715116b.js",
+    "file": "assets/Marconormativo-a9d0143d.js",
     "imports": [
-      "_Header-69e92de0.js",
+      "_Header-15727d95.js",
       "_vue3-datepicker-ad05e99e.js",
       "resources/js/app.js",
       "_logo-dark-5cfa2f4b.js"
@@ -418,9 +418,9 @@
     "src": "resources/js/views/crah/Marconormativo.vue"
   },
   "resources/js/views/crah/detallenoticias.vue": {
-    "file": "assets/detallenoticias-7bbc38b5.js",
+    "file": "assets/detallenoticias-3468b2d5.js",
     "imports": [
-      "_Header-69e92de0.js",
+      "_Header-15727d95.js",
       "_pagination.min-acf4a141.js",
       "resources/js/app.js",
       "_index-62da23e9.js",
