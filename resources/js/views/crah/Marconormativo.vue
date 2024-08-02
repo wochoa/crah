@@ -48,19 +48,7 @@ export default {
                 <div class="card-body border-bottom">
                     <div class="d-flex align-items-center">
                         <h5 class="mb-0 card-title flex-grow-1">Marco Normativo</h5>
-                        <!-- <div class="flex-shrink-0">
-                            <a href="#!" class="btn btn-primary me-1">Add New Job</a>
-                            <a href="#!" class="btn btn-light me-1"><i class="mdi mdi-refresh"></i></a>
-                            <div class="dropdown d-inline-block">
 
-                                <button type="menu" class="btn btn-success" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-dots-vertical"></i></button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
                 <div class="card-body border-bottom">
@@ -68,14 +56,7 @@ export default {
                         <div class="col-xxl-6a col-lg-6">
                             <input type="search" class="form-control" id="searchTableList" placeholder="Buscar por ...">
                         </div>
-                        <!-- <div class="col-xxl-2 col-lg-6">
-                            <select class="form-select" id="idStatus" aria-label="Default select example">
-                                <option value="all">Status</option>
-                                <option value="Active">Active</option>
-                                <option value="New">New</option>
-                                <option value="Close">Close</option>
-                            </select>
-                        </div> -->
+
                         <div class="col-xxl-2 col-lg-4">
                             <select class="form-select" id="idType" aria-label="Default select example">
                                 <option value="all">Tipo</option>
@@ -97,7 +78,7 @@ export default {
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
-                        <table class="table align-middle dt-responsive nowrap w-100 table-check" id="job-list">
+                        <!-- <table class="table align-middle dt-responsive nowrap w-100 table-check" id="job-list">
                             <thead>
                                 <tr>
                                     <th scope="col">No</th>
@@ -365,7 +346,7 @@ export default {
                                     </td>
                                 </tr>
                             </tbody>
-                        </table>
+                        </table> -->
                         <!-- end table -->
                     </div>
                     <div class="row justify-content-between align-items-center">

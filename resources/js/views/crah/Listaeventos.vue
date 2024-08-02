@@ -69,7 +69,7 @@ export default {
 
                                         <hr class="mb-4" />
 
-                                        <div class="row">
+                                        <!-- <div class="row">
                                             <div class="col-sm-4">
                                                 <div class="card p-1 border shadow-none">
                                                     <div class="p-3">
@@ -325,7 +325,7 @@ export default {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> -->
 
                                         <hr class="my-4" />
 
@@ -359,93 +359,7 @@ export default {
                             </div>
                         </div>
                     </b-tab>
-                    <b-tab title="Lista total por fechas">
-                        <div>
-                            <div class="row justify-content-center">
-                                <div class="col-xl-10">
-                                    <h5>Listado por fechas</h5>
 
-                                    <div class="mt-5">
-                                        <div class="d-flex flex-wrap">
-                                            <div class="me-2">
-                                                <h4>2020</h4>
-                                            </div>
-                                            <div class="ml-auto">
-                                                <span class="badge badge-soft-success rounded-pill float-end ml-1 font-size-12">03</span>
-                                            </div>
-                                        </div>
-                                        <hr class="mt-2" />
-
-                                        <div class="list-group list-group-flush">
-                                            <router-link to="/blog/detail" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Beautiful
-                                                Day with Friends</router-link>
-
-                                            <router-link to="/blog/detail" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Drawing a
-                                                sketch</router-link>
-
-                                            <router-link to="/blog/detail" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Project
-                                                discussion with team</router-link>
-                                        </div>
-                                    </div>
-
-                                    <div class="mt-5">
-                                        <div class="d-flex flex-wrap">
-                                            <div class="me-2">
-                                                <h4>2019</h4>
-                                            </div>
-                                            <div class="ml-auto">
-                                                <span class="badge badge-soft-success rounded-pill float-end ml-1 font-size-12">06</span>
-                                            </div>
-                                        </div>
-                                        <hr class="mt-2" />
-
-                                        <div class="list-group list-group-flush">
-                                            <router-link to="/blog/detail" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Coffee
-                                                with Friends</router-link>
-
-                                            <router-link to="/blog/detail" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Neque
-                                                porro quisquam est</router-link>
-
-                                            <router-link to="/blog/detail" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Quis autem
-                                                vel eum iure</router-link>
-
-                                            <router-link to="/blog/detail" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Cras mi eu
-                                                turpis</router-link>
-
-                                            <router-link to="/blog/detail" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Drawing a
-                                                sketch</router-link>
-
-                                            <router-link to="/blog/detail" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Project
-                                                discussion with team</router-link>
-                                        </div>
-                                    </div>
-
-                                    <div class="mt-5">
-                                        <div class="d-flex flex-wrap">
-                                            <div class="me-2">
-                                                <h4>2018</h4>
-                                            </div>
-                                            <div class="ml-auto">
-                                                <span class="badge badge-soft-success rounded-pill float-end ml-1 font-size-12">03</span>
-                                            </div>
-                                        </div>
-                                        <hr class="mt-2" />
-
-                                        <div class="list-group list-group-flush">
-                                            <router-link to="/blog/details" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Beautiful
-                                                Day with Friends</router-link>
-
-                                            <router-link to="/blog/details" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Drawing a
-                                                sketch</router-link>
-
-                                            <router-link to="/blog/details" class="list-group-item text-muted"><i class="mdi mdi-circle-medium me-1"></i> Project
-                                                discussion with team</router-link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </b-tab>
                 </b-tabs>
                 <!-- Nav tabs -->
             </div>

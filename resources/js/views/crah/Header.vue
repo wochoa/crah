@@ -38,16 +38,28 @@ export default {
         <div class="collapse navbar-collapse" id="topnav-menu-content">
             <ul class="navbar-nav ms-auto" id="topnav-menu">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#inicio">Inicio</a>
+                    <!-- <a class="nav-link active" href="/#inicio">Inicio</a> -->
+                    <router-link to="/#inicio" class="nav-link text-dark">
+                        Inicio
+                    </router-link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">Quienes somos</a>
+                    <!-- <a class="nav-link" href="/#about">Quienes somos</a> -->
+                    <router-link to="/#about" class="nav-link text-dark">
+                        Quienes somos
+                    </router-link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#documentos">Documentos</a>
+                    <!-- <a class="nav-link" href="/#documentos">Documentos</a> -->
+                    <router-link to="/#documentos" class="nav-link text-dark">
+                        Documentos
+                    </router-link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#noticias">Noticas</a>
+                    <!-- <a class="nav-link" href="/#noticias">Noticas</a> -->
+                    <router-link to="/#noticias" class="nav-link text-dark">
+                        Noticas
+                    </router-link>
                 </li>
                 <!-- <li class="nav-item">
               <a class="nav-link" href="#team">Team</a>

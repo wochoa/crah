@@ -26,15 +26,15 @@
     ],
     "file": "assets/carlosconsejero-de48764e.js"
   },
-  "_img-7-fff39a51.js": {
+  "_img-7-4d91fab5.js": {
     "assets": [
-      "icons/img-12.jpg",
+      "icons/img-1.jpg",
       "icons/img-2.jpg",
       "icons/img-4.jpg",
       "icons/img-6.jpg",
       "icons/img-7.jpg"
     ],
-    "file": "assets/img-7-fff39a51.js"
+    "file": "assets/img-7-4d91fab5.js"
   },
   "_index-62da23e9.js": {
     "file": "assets/index-62da23e9.js",
@@ -277,7 +277,7 @@
     "src": "resources/images/crypto/bg-ico-hero.jpg"
   },
   "resources/images/crypto/blog/img-1.jpg": {
-    "file": "icons/img-1.jpg",
+    "file": "icons/img-12.jpg",
     "src": "resources/images/crypto/blog/img-1.jpg"
   },
   "resources/images/crypto/blog/img-2.jpg": {
@@ -313,7 +313,7 @@
     "src": "resources/images/profile-img.png"
   },
   "resources/images/small/img-1.jpg": {
-    "file": "icons/img-12.jpg",
+    "file": "icons/img-1.jpg",
     "src": "resources/images/small/img-1.jpg"
   },
   "resources/images/small/img-2.jpg": {
@@ -384,10 +384,11 @@
     "src": "resources/js/views/crah/Listadomiembros.vue"
   },
   "resources/js/views/crah/Listadonoticias.vue": {
-    "file": "assets/Listadonoticias-cef10a62.js",
+    "file": "assets/Listadonoticias-8aaa6f07.js",
     "imports": [
       "_Header-69e92de0.js",
-      "_img-7-fff39a51.js",
+      "_img-7-4d91fab5.js",
+      "_index-62da23e9.js",
       "resources/js/app.js",
       "_logo-dark-5cfa2f4b.js"
     ],
@@ -395,10 +396,10 @@
     "src": "resources/js/views/crah/Listadonoticias.vue"
   },
   "resources/js/views/crah/Listaeventos.vue": {
-    "file": "assets/Listaeventos-cbd33871.js",
+    "file": "assets/Listaeventos-b1de771d.js",
     "imports": [
       "_Header-69e92de0.js",
-      "_img-7-fff39a51.js",
+      "_img-7-4d91fab5.js",
       "resources/js/app.js",
       "_logo-dark-5cfa2f4b.js"
     ],
@@ -436,7 +437,7 @@
     "assets": [
       "icons/img-1.png",
       "icons/img-2.png",
-      "icons/img-1.jpg",
+      "icons/img-12.jpg",
       "icons/img-22.jpg",
       "icons/img-3.jpg",
       "icons/pj.png",
@@ -454,7 +455,7 @@
     "css": [
       "css/portada.min.css"
     ],
-    "file": "assets/portada-4a2dac1f.js",
+    "file": "assets/portada-523e9951.js",
     "imports": [
       "resources/js/app.js",
       "_logo-dark-5cfa2f4b.js",
