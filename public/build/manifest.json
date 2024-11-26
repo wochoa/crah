@@ -49,11 +49,11 @@
     ],
     "file": "assets/logo-dark-5cfa2f4b.js"
   },
-  "_pagination.min-acf4a141.js": {
+  "_pagination.min-5176cc8d.js": {
     "css": [
       "css/pagination.min.css"
     ],
-    "file": "assets/pagination.min-acf4a141.js",
+    "file": "assets/pagination.min-5176cc8d.js",
     "imports": [
       "resources/js/app.js"
     ]
@@ -272,10 +272,6 @@
     "file": "icons/prefectura-hco.jpg",
     "src": "resources/images/crah/prefectura-hco.jpg"
   },
-  "resources/images/crypto/bg-ico-hero.jpg": {
-    "file": "icons/bg-ico-hero.jpg",
-    "src": "resources/images/crypto/bg-ico-hero.jpg"
-  },
   "resources/images/crypto/blog/img-1.jpg": {
     "file": "icons/img-1.jpg",
     "src": "resources/images/crypto/blog/img-1.jpg"
@@ -295,6 +291,10 @@
   "resources/images/crypto/features-img/img-2.png": {
     "file": "icons/img-2.png",
     "src": "resources/images/crypto/features-img/img-2.png"
+  },
+  "resources/images/crypto/puente.png": {
+    "file": "icons/puente.png",
+    "src": "resources/images/crypto/puente.png"
   },
   "resources/images/logo-dark.png": {
     "file": "icons/logo-dark.png",
@@ -418,10 +418,10 @@
     "src": "resources/js/views/crah/Marconormativo.vue"
   },
   "resources/js/views/crah/detallenoticias.vue": {
-    "file": "assets/detallenoticias-c6f8c072.js",
+    "file": "assets/detallenoticias-aa4c6361.js",
     "imports": [
       "_Header-ec0e5448.js",
-      "_pagination.min-acf4a141.js",
+      "_pagination.min-5176cc8d.js",
       "resources/js/app.js",
       "_index-62da23e9.js",
       "_logo-dark-5cfa2f4b.js"
@@ -455,11 +455,11 @@
     "css": [
       "css/portada.min.css"
     ],
-    "file": "assets/portada-243cd02e.js",
+    "file": "assets/portada-78940f23.js",
     "imports": [
       "resources/js/app.js",
       "_logo-dark-5cfa2f4b.js",
-      "_pagination.min-acf4a141.js",
+      "_pagination.min-5176cc8d.js",
       "_carlosconsejero-de48764e.js",
       "_index-62da23e9.js"
     ],

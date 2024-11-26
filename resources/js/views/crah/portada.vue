@@ -28,6 +28,8 @@ import Defensoria from '../../../images/crah/Defensoría_del_Pueblo.png';
 import MiembrosInte from './Miembros.vue';
 import Documentos from './Documentos.vue';
 import Slidernoticias from './Carrouselnoticias.vue'
+import Enlacesrefes from './Enlacesreferenciales.vue'
+
 
 export default {
     components: {
@@ -37,7 +39,8 @@ export default {
         TimelineSlider,
         MiembrosInte,
         Documentos,
-        Slidernoticias
+        Slidernoticias,
+        Enlacesrefes
     },
     data() {
         return {
@@ -158,14 +161,9 @@ export default {
                     <li class="nav-item">
                         <a class="nav-link" href="#noticias">Noticas</a>
                     </li>
-                    <!-- <li class="nav-item">
-              <a class="nav-link" href="#team">Team</a>
-            </li> -->
-                    <!-- <li class="nav-item">
-              <a class="nav-link" href="#news">News</a>
-            </li> -->
+ 
                     <li class="nav-item">
-                        <a class="nav-link" href="#denuncia">Recomendación</a>
+                        <a class="nav-link" href="#denuncia">Sugerencias</a>
                     </li>
                 </ul>
 
@@ -473,57 +471,8 @@ export default {
             <!-- end row -->
 
             <div class="row">
-                <div class="col-3">
-                    <div class="card">
-                        <img :src="poderj" alt="" height="70px">
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card">
-                        <img :src="policia" alt="" height="70px">
-                    </div>
-                </div>
-
-                <div class="col-3">
-                    <div class="card">
-                        <img :src="Ministeriop" alt="" height="70px">
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card">
-                        <img :src="gorehco" alt="" height="70px">
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card">
-                        <img :src="prefectura" alt="" height="150px">
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card">
-                        <img :src="Contraloria" alt="" height="150px">
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card">
-                        <img :src="Minjus" alt="" height="150px">
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card">
-                        <img :src="MinjusAnt" alt="" height="150px">
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card">
-                        <img :src="Camara" alt="" height="100px">
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card">
-                        <img :src="Defensoria" alt="" height="100px">
-                    </div>
-                </div>
+                <Enlacesrefes />
+                
             </div>
             <!-- end row -->
         </div>

@@ -14,8 +14,8 @@ export default {
 <div class="row">
     <div class="col-lg-12">
         <div class="text-center mb-2">
-            <div class="small-title text-secondary">CRAH</div>
-            <h4>DOCUMENTOS NORMATIVOS</h4>
+            <div class="small-title text-secondary">MARCO NORMATIVO</div>
+            <h4>DOCUMENTOS DE GESTIÓN</h4>
         </div>
     </div>
 </div>
