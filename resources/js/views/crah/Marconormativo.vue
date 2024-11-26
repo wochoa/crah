@@ -31,8 +31,23 @@ export default {
                 }
             ],
             datepickervalue: new Date(),
+            data_marconomativo:{}
         };
-    }
+    },
+    mounted() {
+        // console.log('Current Swiper instance object', this.swiper);
+        // this.swiper.slideTo(0, 1000, false);
+        this.cargadatos();
+    },
+    methods: {
+        cargadatos()
+        {
+            var url='/pagina/389'
+            axios.get(url).then(res=>{
+                this.data_marconomativo=res.data.pagina
+            })
+        }
+    },
 };
 </script>
 <template>
