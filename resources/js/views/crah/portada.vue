@@ -165,7 +165,7 @@ export default {
               <a class="nav-link" href="#news">News</a>
             </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#denuncia">Denuncia</a>
+                        <a class="nav-link" href="#denuncia">Recomendación</a>
                     </li>
                 </ul>
 
@@ -178,7 +178,7 @@ export default {
 
     <!-- hero section start -->
     <section class="section hero-section bg-ico-hero" id="inicio">
-        <div class="bg-overlay bg-danger" style="background-color: #DA291C !important;"></div>
+        <div class="bg-overlay bg-danger" style="background-color: #350303 !important;"></div>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5">
@@ -197,7 +197,7 @@ export default {
                 <div class="col-lg-5 col-md-8 col-sm-10 ms-lg-auto">
                     <div class="card overflow-hidden mb-0 mt-5 mt-lg-0">
                         <!-- succes -->
-                        <img :src="'https://gestionportales.regionhuanuco.gob.pe/storage/notas-prensa/41-1-20240724-123140.jpg'" alt="">
+                        <img :src="'https://scontent.flim14-1.fna.fbcdn.net/v/t39.30808-6/241182539_107108208423179_8466610227786207318_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeEBKlgJmnDge7eTd8RchMboakJkFgBZxAxqQmQWAFnEDFumE3myAin_G16YobV53iw&_nc_ohc=npvA_ypQPEgQ7kNvgGLbIef&_nc_zt=23&_nc_ht=scontent.flim14-1.fna&_nc_gid=AXI3S_ian8YYi8JuyHlUjRh&oh=00_AYBAlpDfuFkG1oU6bfpiDT0Pv7WHgdcmSWgM35cRDYGjlQ&oe=674BA58E'" alt="">
                     </div>
                 </div>
             </div>
@@ -264,7 +264,7 @@ export default {
                                         </span>
                                     </div>
                                     <div class="flex-grow-1">
-                                        <h5 class="text-muted">Normatividad CRAH</h5>
+                                        <h5 class="text-muted">Documentos</h5>
                                         <p class="text-muted text-truncate mb-0">Actas, Acuerdos, etc.</p>
                                         <button class="btn btn-sm btn-danger">Hacer click</button>
                                     </div>
