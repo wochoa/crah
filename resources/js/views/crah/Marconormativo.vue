@@ -3,7 +3,7 @@
 import PageHeader from "../../components/page-header.vue";
 import Datepicker from "vue3-datepicker";
 import Header from './Header.vue';
-
+import axios from 'axios';
 /**
  * Starter component
  */
@@ -30,13 +30,11 @@ export default {
                     active: true
                 }
             ],
+            data_marconomativo:{},
             datepickervalue: new Date(),
-            data_marconomativo:{}
         };
     },
     mounted() {
-        // console.log('Current Swiper instance object', this.swiper);
-        // this.swiper.slideTo(0, 1000, false);
         this.cargadatos();
     },
     methods: {
@@ -44,7 +42,8 @@ export default {
         {
             var url='/pagina/389'
             axios.get(url).then(res=>{
-                this.data_marconomativo=res.data.pagina
+                let valor=res.data.pagina
+                this.data_marconomativo=valor[0]
             })
         }
     },
@@ -66,7 +65,7 @@ export default {
 
                     </div>
                 </div>
-                <div class="card-body border-bottom">
+                <!-- <div class="card-body border-bottom">
                     <div class="row g-3">
                         <div class="col-xxl-6a col-lg-6">
                             <input type="search" class="form-control" id="searchTableList" placeholder="Buscar por ...">
@@ -90,311 +89,12 @@ export default {
                                 Buscar</button>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="card-body">
-                    <div class="table-responsive">
-                        <!-- <table class="table align-middle dt-responsive nowrap w-100 table-check" id="job-list">
-                            <thead>
-                                <tr>
-                                    <th scope="col">No</th>
-                                    <th scope="col">Job Title</th>
-                                    <th scope="col">Company Name</th>
-                                    <th scope="col">Location</th>
-                                    <th scope="col">Experience</th>
-                                    <th scope="col">Position</th>
-                                    <th scope="col">Type</th>
-                                    <th scope="col">Posted Date</th>
-                                    <th scope="col">Last Date</th>
-                                    <th scope="col">Status</th>
-                                    <th scope="col">Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">1</th>
-                                    <td>Magento Developer</td>
-                                    <td>Themesbrand</td>
-                                    <td>California</td>
-                                    <td>0-2 Years</td>
-                                    <td>2</td>
-                                    <td><span class="badge badge-soft-success">Full Time</span></td>
-                                    <td>02 June 2021</td>
-                                    <td>25 June 2021</td>
-                                    <td><span class="badge bg-success">Active</span></td>
-                                    <td>
-                                        <ul class="list-unstyled hstack gap-1 mb-0">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="View">
-                                                <router-link to="/jobs/details" class="btn btn-sm btn-soft-primary"><i class="mdi mdi-eye-outline"></i></router-link>
-                                            </li>
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Edit">
-                                                <a href="#" class="btn btn-sm btn-soft-info"><i class="mdi mdi-pencil-outline"></i></a>
-                                            </li>
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Delete">
-                                                <b-button variant="soft-danger" class="btn-sm" @click="listDeleteModal = !listDeleteModal"><i class="mdi mdi-delete-outline"></i></b-button>
-                                            </li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2</th>
-                                    <td>Product Designer</td>
-                                    <td>Web Technology pvt.ltd</td>
-                                    <td>California</td>
-                                    <td>1-2 Years</td>
-                                    <td>3</td>
-                                    <td><span class="badge badge-soft-danger">Part Time</span></td>
-                                    <td>15 June 2021</td>
-                                    <td>28 June 2021</td>
-                                    <td><span class="badge bg-info">New</span></td>
-                                    <td>
-                                        <ul class="list-unstyled hstack gap-1 mb-0">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="View">
-                                                <router-link to="/jobs/details" class="btn btn-sm btn-soft-primary"><i class="mdi mdi-eye-outline"></i></router-link>
-                                            </li>
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Edit">
-                                                <a href="#" class="btn btn-sm btn-soft-info"><i class="mdi mdi-pencil-outline"></i></a>
-                                            </li>
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Delete">
-                                                <b-button variant="soft-danger" class="btn-sm" @click="listDeleteModal = !listDeleteModal"><i class="mdi mdi-delete-outline"></i></b-button>
-                                            </li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">3</th>
-                                    <td>Marketing Director</td>
-                                    <td>Creative Agency</td>
-                                    <td>Phoenix</td>
-                                    <td>-</td>
-                                    <td>5</td>
-                                    <td><span class="badge badge-soft-success">Full Time</span></td>
-                                    <td>02 June 2021</td>
-                                    <td>25 June 2021</td>
-                                    <td><span class="badge bg-danger">Close</span></td>
-                                    <td>
-                                        <ul class="list-unstyled hstack gap-1 mb-0">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="View">
-                                                <router-link to="/jobs/details" class="btn btn-sm btn-soft-primary"><i class="mdi mdi-eye-outline"></i></router-link>
-                                            </li>
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Edit">
-                                                <a href="#" class="btn btn-sm btn-soft-info"><i class="mdi mdi-pencil-outline"></i></a>
-                                            </li>
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Delete">
-                                                <b-button variant="soft-danger" class="btn-sm" @click="listDeleteModal = !listDeleteModal"><i class="mdi mdi-delete-outline"></i></b-button>
-                                            </li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">4</th>
-                                    <td>HTML Developer</td>
-                                    <td>Web Technology pvt.ltd</td>
-                                    <td>California</td>
-                                    <td>0-4 Years</td>
-                                    <td>8</td>
-                                    <td><span class="badge badge-soft-success">Full Time</span></td>
-                                    <td>02 June 2021</td>
-                                    <td>25 June 2021</td>
-                                    <td><span class="badge bg-success">Active</span></td>
-                                    <td>
-                                        <ul class="list-unstyled hstack gap-1 mb-0">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="View">
-                                                <router-link to="/jobs/details" class="btn btn-sm btn-soft-primary"><i class="mdi mdi-eye-outline"></i></router-link>
-                                            </li>
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Edit">
-                                                <a href="#" class="btn btn-sm btn-soft-info"><i class="mdi mdi-pencil-outline"></i></a>
-                                            </li>
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Delete">
-                                                <b-button variant="soft-danger" class="btn-sm" @click="listDeleteModal = !listDeleteModal"><i class="mdi mdi-delete-outline"></i></b-button>
-                                            </li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">5</th>
-                                    <td>Product Sales Specialist</td>
-                                    <td>Skote Technology pvt.Ltd</td>
-                                    <td>Louisiana</td>
-                                    <td>5+ Years</td>
-                                    <td>1</td>
-                                    <td><span class="badge badge-soft-danger">Part Time</span></td>
-                                    <td>02 June 2021</td>
-                                    <td>25 June 2021</td>
-                                    <td><span class="badge bg-info">New</span></td>
-                                    <td>
-                                        <ul class="list-unstyled hstack gap-1 mb-0">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="View">
-                                                <router-link to="/jobs/details" class="btn btn-sm btn-soft-primary"><i class="mdi mdi-eye-outline"></i></router-link>
-                                            </li>
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Edit">
-                                                <a href="#" class="btn btn-sm btn-soft-info"><i class="mdi mdi-pencil-outline"></i></a>
-                                            </li>
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Delete">
-                                                <b-button variant="soft-danger" class="btn-sm" @click="listDeleteModal = !listDeleteModal"><i class="mdi mdi-delete-outline"></i></b-button>
-                                            </li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">6</th>
-                                    <td>Magento Developer</td>
-                                    <td>New Technology pvt.ltd</td>
-                                    <td>Oakridge Lane Richardson</td>
-                                    <td>0-2 Years</td>
-                                    <td>2</td>
-                                    <td><span class="badge badge-soft-info">Freelance</span></td>
-                                    <td>02 June 2021</td>
-                                    <td>25 June 2021</td>
-                                    <td><span class="badge text-bg-info">New</span></td>
-                                    <td>
-                                        <ul class="list-unstyled hstack gap-1 mb-0">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="View">
-                                                <router-link to="/jobs/details" class="btn btn-sm btn-soft-primary"><i class="mdi mdi-eye-outline"></i></router-link>
-                                            </li>
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Edit">
-                                                <a href="#" class="btn btn-sm btn-soft-info"><i class="mdi mdi-pencil-outline"></i></a>
-                                            </li>
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Delete">
-                                                <b-button variant="soft-danger" class="btn-sm" @click="listDeleteModal = !listDeleteModal"><i class="mdi mdi-delete-outline"></i></b-button>
-                                            </li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">7</th>
-                                    <td>Business Associate</td>
-                                    <td>Web Technology pvt.ltd</td>
-                                    <td>California</td>
-                                    <td>0-2 Years</td>
-                                    <td>2</td>
-                                    <td><span class="badge badge-soft-success">Full Time</span></td>
-                                    <td>02 June 2021</td>
-                                    <td>25 June 2021</td>
-                                    <td><span class="badge text-bg-success">Active</span></td>
-                                    <td>
-                                        <ul class="list-unstyled hstack gap-1 mb-0">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="View">
-                                                <router-link to="/jobs/details" class="btn btn-sm btn-soft-primary"><i class="mdi mdi-eye-outline"></i></router-link>
-                                            </li>
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Edit">
-                                                <a href="#" class="btn btn-sm btn-soft-info"><i class="mdi mdi-pencil-outline"></i></a>
-                                            </li>
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Delete">
-                                                <b-button variant="soft-danger" class="btn-sm" @click="listDeleteModal = !listDeleteModal"><i class="mdi mdi-delete-outline"></i></b-button>
-                                            </li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">8</th>
-                                    <td>Magento Developer</td>
-                                    <td>Adobe Agency</td>
-                                    <td>California</td>
-                                    <td>0-2 Years</td>
-                                    <td>2</td>
-                                    <td><span class="badge badge-soft-success">Full Time</span></td>
-                                    <td>02 June 2021</td>
-                                    <td>25 June 2021</td>
-                                    <td><span class="badge text-bg-danger">Close</span></td>
-                                    <td>
-                                        <ul class="list-unstyled hstack gap-1 mb-0">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="View">
-                                                <router-link to="/jobs/details" class="btn btn-sm btn-soft-primary"><i class="mdi mdi-eye-outline"></i></router-link>
-                                            </li>
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Edit">
-                                                <a href="#" class="btn btn-sm btn-soft-info"><i class="mdi mdi-pencil-outline"></i></a>
-                                            </li>
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Delete">
-                                                <b-button variant="soft-danger" class="btn-sm" @click="listDeleteModal = !listDeleteModal"><i class="mdi mdi-delete-outline"></i></b-button>
-                                            </li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">9</th>
-                                    <td>HTML Developer</td>
-                                    <td>Web Technology pvt.ltd</td>
-                                    <td>California</td>
-                                    <td>0-2 Years</td>
-                                    <td>2</td>
-                                    <td><span class="badge badge-soft-danger">Part Time</span></td>
-                                    <td>02 June 2021</td>
-                                    <td>25 June 2021</td>
-                                    <td><span class="badge text-bg-info">New</span></td>
-                                    <td>
-                                        <ul class="list-unstyled hstack gap-1 mb-0">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="View">
-                                                <router-link to="/jobs/details" class="btn btn-sm btn-soft-primary"><i class="mdi mdi-eye-outline"></i></router-link>
-                                            </li>
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Edit">
-                                                <a href="#" class="btn btn-sm btn-soft-info"><i class="mdi mdi-pencil-outline"></i></a>
-                                            </li>
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Delete">
-                                                <b-button variant="soft-danger" class="btn-sm" @click="listDeleteModal = !listDeleteModal"><i class="mdi mdi-delete-outline"></i></b-button>
-                                            </li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">10</th>
-                                    <td>Marketing Director</td>
-                                    <td>Web Technology pvt.ltd</td>
-                                    <td>California</td>
-                                    <td>0-2 Years</td>
-                                    <td>2</td>
-                                    <td><span class="badge badge-soft-warning">Internship</span></td>
-                                    <td>02 June 2021</td>
-                                    <td>25 June 2021</td>
-                                    <td><span class="badge text-bg-success">Active</span></td>
-                                    <td>
-                                        <ul class="list-unstyled hstack gap-1 mb-0">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="View">
-                                                <router-link to="/jobs/details" class="btn btn-sm btn-soft-primary"><i class="mdi mdi-eye-outline"></i></router-link>
-                                            </li>
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Edit">
-                                                <a href="#" class="btn btn-sm btn-soft-info"><i class="mdi mdi-pencil-outline"></i></a>
-                                            </li>
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Delete">
-                                                <b-button variant="soft-danger" class="btn-sm" @click="listDeleteModal = !listDeleteModal"><i class="mdi mdi-delete-outline"></i></b-button>
-                                            </li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table> -->
-                        <!-- end table -->
+                    <div class="table-responsive" v-html="data_marconomativo.cont_pagina">
+                        
                     </div>
-                    <div class="row justify-content-between align-items-center">
-                        <div class="col-auto me-auto">
-                            <p class="text-muted mb-0">Showing <b>1</b> to <b>12</b> of <b>45</b> entries</p>
-                        </div>
-                        <div class="col-auto">
-                            <div class="card d-inline-block ms-auto mb-0">
-                                <div class="card-body p-2">
-                                    <nav aria-label="Page navigation example" class="mb-0">
-                                        <ul class="pagination mb-0">
-                                            <li class="page-item">
-                                                <a class="page-link" href="javascript:void(0);" aria-label="Previous">
-                                                    <span aria-hidden="true">«</span>
-                                                </a>
-                                            </li>
-                                            <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
-                                            <li class="page-item active"><a class="page-link" href="javascript:void(0);">2</a></li>
-                                            <li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
-                                            <li class="page-item"><a class="page-link" href="javascript:void(0);">...</a></li>
-                                            <li class="page-item"><a class="page-link" href="javascript:void(0);">12</a></li>
-                                            <li class="page-item">
-                                                <a class="page-link" href="javascript:void(0);" aria-label="Next">
-                                                    <span aria-hidden="true">»</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                        </div>
-                        <!--end col-->
-                    </div>
+                    
                     <!-- end table responsive -->
                 </div>
                 <!-- end card body -->

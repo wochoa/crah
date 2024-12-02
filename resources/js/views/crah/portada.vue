@@ -264,7 +264,9 @@ export default {
                                     <div class="flex-grow-1">
                                         <h5 class="text-muted">Documentos</h5>
                                         <p class="text-muted text-truncate mb-0">Actas, Acuerdos, etc.</p>
-                                        <button class="btn btn-sm btn-danger">Hacer click</button>
+                                        <router-link to="/documentos/internos" class="btn btn-sm btn-danger">
+                                            Hacer click
+                                        </router-link>
                                     </div>
                                 </div>
                             </div>

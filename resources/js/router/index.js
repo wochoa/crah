@@ -15,6 +15,11 @@ const routes = [
             component: () => import('../views/crah/Marconormativo.vue'),
     },
     {
+            path: '/documentos/internos',
+            meta: { title: 'Marco normativo'},
+            component: () => import('../views/crah/Actascrha.vue'),
+    },
+    {
         path: '/noticiasall',
         meta: { title: 'Listado de ntoicias'},
         component: () => import('../views/crah/Listadonoticias.vue'),
@@ -511,11 +516,11 @@ const routes = [
     //     meta: { authRequired: true, title: 'Sweet Alert' },
     //     component: () => import('../views/ui/sweet-alert.vue')
     // },
-    // {
-    //     path: '/ui/tabs-accordions',
-    //     meta: { authRequired: true, title: 'Tabs Accordions' },
-    //     component: () => import('../views/ui/tabs-accordions.vue')
-    // },
+    {
+        path: '/ui/tabs-accordions',
+        meta: { authRequired: false, title: 'Tabs Accordions' },
+        component: () => import('../views/ui/tabs-accordions.vue')
+    },
     // {
     //     path: '/ui/typography',
     //     meta: { authRequired: true, title: 'Typography' },
