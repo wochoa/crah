@@ -1,16 +1,9 @@
 {
-  "Header.css": {
-    "file": "css/Header.min.css",
-    "src": "Header.css"
-  },
-  "_Header-ec0e5448.js": {
-    "css": [
-      "css/Header.min.css"
-    ],
-    "file": "assets/Header-ec0e5448.js",
+  "_Header-1ac6460a.js": {
+    "file": "assets/Header-1ac6460a.js",
     "imports": [
-      "resources/js/app.js",
-      "_logo-dark-5cfa2f4b.js"
+      "_logo-dark-5cfa2f4b.js",
+      "resources/js/app.js"
     ]
   },
   "_carlosconsejero-de48764e.js": {
@@ -26,15 +19,15 @@
     ],
     "file": "assets/carlosconsejero-de48764e.js"
   },
-  "_img-7-4d91fab5.js": {
+  "_img-7-fff39a51.js": {
     "assets": [
-      "icons/img-1.jpg",
+      "icons/img-12.jpg",
       "icons/img-2.jpg",
       "icons/img-4.jpg",
       "icons/img-6.jpg",
       "icons/img-7.jpg"
     ],
-    "file": "assets/img-7-4d91fab5.js"
+    "file": "assets/img-7-fff39a51.js"
   },
   "_index-62da23e9.js": {
     "file": "assets/index-62da23e9.js",
@@ -42,12 +35,27 @@
       "resources/js/app.js"
     ]
   },
+  "_logo-9faa3827.js": {
+    "assets": [
+      "icons/logo.svg"
+    ],
+    "file": "assets/logo-9faa3827.js"
+  },
   "_logo-dark-5cfa2f4b.js": {
     "assets": [
       "icons/logo-light.png",
       "icons/logo-dark.png"
     ],
     "file": "assets/logo-dark-5cfa2f4b.js"
+  },
+  "_page-header-a85ecb4e.js": {
+    "css": [
+      "css/page-header.min.css"
+    ],
+    "file": "assets/page-header-a85ecb4e.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
   },
   "_pagination.min-5176cc8d.js": {
     "css": [
@@ -75,6 +83,10 @@
   "node_modules/leaflet/dist/images/marker-icon.png": {
     "file": "icons/marker-icon.png",
     "src": "node_modules/leaflet/dist/images/marker-icon.png"
+  },
+  "page-header.css": {
+    "file": "css/page-header.min.css",
+    "src": "page-header.css"
   },
   "pagination.css": {
     "file": "css/pagination.min.css",
@@ -196,6 +208,30 @@
     "file": "icons/bg-auth-overlay.png",
     "src": "resources/images/bg-auth-overlay.png"
   },
+  "resources/images/brands/bitbucket.png": {
+    "file": "icons/bitbucket.png",
+    "src": "resources/images/brands/bitbucket.png"
+  },
+  "resources/images/brands/dribbble.png": {
+    "file": "icons/dribbble.png",
+    "src": "resources/images/brands/dribbble.png"
+  },
+  "resources/images/brands/dropbox.png": {
+    "file": "icons/dropbox.png",
+    "src": "resources/images/brands/dropbox.png"
+  },
+  "resources/images/brands/github.png": {
+    "file": "icons/github.png",
+    "src": "resources/images/brands/github.png"
+  },
+  "resources/images/brands/mail_chimp.png": {
+    "file": "icons/mail_chimp.png",
+    "src": "resources/images/brands/mail_chimp.png"
+  },
+  "resources/images/brands/slack.png": {
+    "file": "icons/slack.png",
+    "src": "resources/images/brands/slack.png"
+  },
   "resources/images/crah/CCIHco-Logotipo-Verde.png": {
     "file": "icons/CCIHco-Logotipo-Verde.png",
     "src": "resources/images/crah/CCIHco-Logotipo-Verde.png"
@@ -273,7 +309,7 @@
     "src": "resources/images/crah/prefectura-hco.jpg"
   },
   "resources/images/crypto/blog/img-1.jpg": {
-    "file": "icons/img-12.jpg",
+    "file": "icons/img-1.jpg",
     "src": "resources/images/crypto/blog/img-1.jpg"
   },
   "resources/images/crypto/blog/img-2.jpg": {
@@ -296,6 +332,38 @@
     "file": "icons/puente.png",
     "src": "resources/images/crypto/puente.png"
   },
+  "resources/images/flags/arabic.png": {
+    "file": "icons/arabic.png",
+    "src": "resources/images/flags/arabic.png"
+  },
+  "resources/images/flags/chaina.png": {
+    "file": "icons/chaina.png",
+    "src": "resources/images/flags/chaina.png"
+  },
+  "resources/images/flags/french.jpg": {
+    "file": "icons/french.jpg",
+    "src": "resources/images/flags/french.jpg"
+  },
+  "resources/images/flags/spain.jpg": {
+    "file": "icons/spain.jpg",
+    "src": "resources/images/flags/spain.jpg"
+  },
+  "resources/images/flags/us.jpg": {
+    "file": "icons/us.jpg",
+    "src": "resources/images/flags/us.jpg"
+  },
+  "resources/images/layouts/layout-1.jpg": {
+    "file": "icons/layout-1.jpg",
+    "src": "resources/images/layouts/layout-1.jpg"
+  },
+  "resources/images/layouts/layout-2.jpg": {
+    "file": "icons/layout-2.jpg",
+    "src": "resources/images/layouts/layout-2.jpg"
+  },
+  "resources/images/layouts/layout-3.jpg": {
+    "file": "icons/layout-3.jpg",
+    "src": "resources/images/layouts/layout-3.jpg"
+  },
   "resources/images/logo-dark.png": {
     "file": "icons/logo-dark.png",
     "src": "resources/images/logo-dark.png"
@@ -304,16 +372,24 @@
     "file": "icons/logo-light.png",
     "src": "resources/images/logo-light.png"
   },
+  "resources/images/logo-light.svg": {
+    "file": "icons/logo-light.svg",
+    "src": "resources/images/logo-light.svg"
+  },
   "resources/images/logo.svg": {
     "file": "icons/logo.svg",
     "src": "resources/images/logo.svg"
+  },
+  "resources/images/megamenu-img.png": {
+    "file": "icons/megamenu-img.png",
+    "src": "resources/images/megamenu-img.png"
   },
   "resources/images/profile-img.png": {
     "file": "icons/profile-img.png",
     "src": "resources/images/profile-img.png"
   },
   "resources/images/small/img-1.jpg": {
-    "file": "icons/img-1.jpg",
+    "file": "icons/img-12.jpg",
     "src": "resources/images/small/img-1.jpg"
   },
   "resources/images/small/img-2.jpg": {
@@ -332,6 +408,18 @@
     "file": "icons/img-7.jpg",
     "src": "resources/images/small/img-7.jpg"
   },
+  "resources/images/users/avatar-1.jpg": {
+    "file": "icons/avatar-1.jpg",
+    "src": "resources/images/users/avatar-1.jpg"
+  },
+  "resources/images/users/avatar-3.jpg": {
+    "file": "icons/avatar-3.jpg",
+    "src": "resources/images/users/avatar-3.jpg"
+  },
+  "resources/images/users/avatar-4.jpg": {
+    "file": "icons/avatar-4.jpg",
+    "src": "resources/images/users/avatar-4.jpg"
+  },
   "resources/js/app.css": {
     "file": "css/app.min2.css",
     "src": "resources/js/app.css"
@@ -348,11 +436,13 @@
     "dynamicImports": [
       "resources/js/views/crah/portada.vue",
       "resources/js/views/crah/Marconormativo.vue",
+      "resources/js/views/crah/Actascrha.vue",
       "resources/js/views/crah/Listadonoticias.vue",
       "resources/js/views/crah/Listaeventos.vue",
       "resources/js/views/crah/detallenoticias.vue",
       "resources/js/views/crah/Listadomiembros.vue",
-      "resources/js/views/account/login.vue"
+      "resources/js/views/account/login.vue",
+      "resources/js/views/ui/tabs-accordions.vue"
     ],
     "file": "js/app2.js",
     "isEntry": true,
@@ -360,22 +450,36 @@
   },
   "resources/js/views/account/login.vue": {
     "assets": [
-      "icons/profile-img.png",
-      "icons/logo.svg"
+      "icons/profile-img.png"
     ],
-    "file": "assets/login-e6d87dc0.js",
+    "file": "assets/login-787f48cf.js",
     "imports": [
+      "_logo-9faa3827.js",
       "_index-62da23e9.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/views/account/login.vue"
   },
-  "resources/js/views/crah/Listadomiembros.vue": {
-    "file": "assets/Listadomiembros-6eab5d56.js",
+  "resources/js/views/crah/Actascrha.vue": {
+    "file": "assets/Actascrha-58fb6a95.js",
     "imports": [
-      "_Header-ec0e5448.js",
+      "_page-header-a85ecb4e.js",
       "_vue3-datepicker-ad05e99e.js",
+      "_Header-1ac6460a.js",
+      "_index-62da23e9.js",
+      "resources/js/app.js",
+      "_logo-dark-5cfa2f4b.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/views/crah/Actascrha.vue"
+  },
+  "resources/js/views/crah/Listadomiembros.vue": {
+    "file": "assets/Listadomiembros-27823188.js",
+    "imports": [
+      "_page-header-a85ecb4e.js",
+      "_vue3-datepicker-ad05e99e.js",
+      "_Header-1ac6460a.js",
       "_carlosconsejero-de48764e.js",
       "resources/js/app.js",
       "_logo-dark-5cfa2f4b.js"
@@ -384,10 +488,11 @@
     "src": "resources/js/views/crah/Listadomiembros.vue"
   },
   "resources/js/views/crah/Listadonoticias.vue": {
-    "file": "assets/Listadonoticias-3f499087.js",
+    "file": "assets/Listadonoticias-613656d1.js",
     "imports": [
-      "_Header-ec0e5448.js",
-      "_img-7-4d91fab5.js",
+      "_Header-1ac6460a.js",
+      "_page-header-a85ecb4e.js",
+      "_img-7-fff39a51.js",
       "_index-62da23e9.js",
       "resources/js/app.js",
       "_logo-dark-5cfa2f4b.js"
@@ -396,10 +501,11 @@
     "src": "resources/js/views/crah/Listadonoticias.vue"
   },
   "resources/js/views/crah/Listaeventos.vue": {
-    "file": "assets/Listaeventos-f1ba17fa.js",
+    "file": "assets/Listaeventos-d0cdc7a7.js",
     "imports": [
-      "_Header-ec0e5448.js",
-      "_img-7-4d91fab5.js",
+      "_Header-1ac6460a.js",
+      "_page-header-a85ecb4e.js",
+      "_img-7-fff39a51.js",
       "resources/js/app.js",
       "_logo-dark-5cfa2f4b.js"
     ],
@@ -407,10 +513,12 @@
     "src": "resources/js/views/crah/Listaeventos.vue"
   },
   "resources/js/views/crah/Marconormativo.vue": {
-    "file": "assets/Marconormativo-d8932953.js",
+    "file": "assets/Marconormativo-a959bf97.js",
     "imports": [
-      "_Header-ec0e5448.js",
+      "_page-header-a85ecb4e.js",
       "_vue3-datepicker-ad05e99e.js",
+      "_Header-1ac6460a.js",
+      "_index-62da23e9.js",
       "resources/js/app.js",
       "_logo-dark-5cfa2f4b.js"
     ],
@@ -418,9 +526,10 @@
     "src": "resources/js/views/crah/Marconormativo.vue"
   },
   "resources/js/views/crah/detallenoticias.vue": {
-    "file": "assets/detallenoticias-aa4c6361.js",
+    "file": "assets/detallenoticias-7430925b.js",
     "imports": [
-      "_Header-ec0e5448.js",
+      "_Header-1ac6460a.js",
+      "_page-header-a85ecb4e.js",
       "_pagination.min-5176cc8d.js",
       "resources/js/app.js",
       "_index-62da23e9.js",
@@ -437,7 +546,7 @@
     "assets": [
       "icons/img-1.png",
       "icons/img-2.png",
-      "icons/img-12.jpg",
+      "icons/img-1.jpg",
       "icons/img-22.jpg",
       "icons/img-3.jpg",
       "icons/pj.png",
@@ -455,7 +564,7 @@
     "css": [
       "css/portada.min.css"
     ],
-    "file": "assets/portada-4e2058b6.js",
+    "file": "assets/portada-cd3adc32.js",
     "imports": [
       "resources/js/app.js",
       "_logo-dark-5cfa2f4b.js",
@@ -465,6 +574,38 @@
     ],
     "isDynamicEntry": true,
     "src": "resources/js/views/crah/portada.vue"
+  },
+  "resources/js/views/ui/tabs-accordions.vue": {
+    "assets": [
+      "icons/us.jpg",
+      "icons/french.jpg",
+      "icons/spain.jpg",
+      "icons/chaina.png",
+      "icons/arabic.png",
+      "icons/logo-light.svg",
+      "icons/avatar-1.jpg",
+      "icons/avatar-3.jpg",
+      "icons/avatar-4.jpg",
+      "icons/github.png",
+      "icons/bitbucket.png",
+      "icons/dribbble.png",
+      "icons/dropbox.png",
+      "icons/mail_chimp.png",
+      "icons/slack.png",
+      "icons/megamenu-img.png",
+      "icons/layout-1.jpg",
+      "icons/layout-2.jpg",
+      "icons/layout-3.jpg"
+    ],
+    "file": "assets/tabs-accordions-19e7d4d0.js",
+    "imports": [
+      "resources/js/app.js",
+      "_logo-dark-5cfa2f4b.js",
+      "_logo-9faa3827.js",
+      "_page-header-a85ecb4e.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/views/ui/tabs-accordions.vue"
   },
   "resources/sass/app-rtl.scss": {
     "file": "css/app-rtl.min.css",
