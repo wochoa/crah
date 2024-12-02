@@ -162,6 +162,16 @@ class Paginasweb extends Controller
         JSON_UNESCAPED_UNICODE);
     }
 
+    public function slider()
+    {
+     //cargados el directorio regional
+     $enlace = env('API_DATOS'); 
+     $iddirweb=DB::table('direcciones_web')->where('dns_direcciones_web',$enlace)->value('iddirecciones_web'); 
+     $slider=DB::table('slider')->where(['iddirecciones_web'=>$iddirweb,'activo_slider'=>1])->orderBy('idslider','DESC')->first();
+     return substr($slider->img_slider,7);
+    //  return response()->json(['slider'=>$slider],200, ['Content-Type' => 'application/json;charset=UTF-8', 'Charset' => 'utf-8'],JSON_UNESCAPED_UNICODE); 
+    }
+
 
 
 

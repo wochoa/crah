@@ -37,40 +37,23 @@ export default {
 
         <div class="collapse navbar-collapse" id="topnav-menu-content">
             <ul class="navbar-nav ms-auto" id="topnav-menu">
-                <li class="nav-item">
-                    <!-- <a class="nav-link active" href="/#inicio">Inicio</a> -->
-                    <router-link to="/#inicio" class="nav-link text-dark">
-                        Inicio
-                    </router-link>
-                </li>
-                <li class="nav-item">
-                    <!-- <a class="nav-link" href="/#about">Quienes somos</a> -->
-                    <router-link to="/#about" class="nav-link text-dark">
-                        Quienes somos
-                    </router-link>
-                </li>
-                <li class="nav-item">
-                    <!-- <a class="nav-link" href="/#documentos">Documentos</a> -->
-                    <router-link to="/#documentos" class="nav-link text-dark">
-                        Documentos
-                    </router-link>
-                </li>
-                <li class="nav-item">
-                    <!-- <a class="nav-link" href="/#noticias">Noticas</a> -->
-                    <router-link to="/#noticias" class="nav-link text-dark">
-                        Noticas
-                    </router-link>
-                </li>
-                <!-- <li class="nav-item">
-              <a class="nav-link" href="#team">Team</a>
-            </li> -->
-                <!-- <li class="nav-item">
-              <a class="nav-link" href="#news">News</a>
-            </li> -->
-                <li class="nav-item">
-                    <a class="nav-link" href="#denuncia">Denuncia</a>
-                </li>
-            </ul>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Quienes somos</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#documentos">Documentos</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#noticias">Noticas</a>
+                    </li>
+ 
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://facilita.gob.pe/t/16438" target="_blank">Sugerencias</a>
+                    </li>
+                </ul>
 
             <!-- <div class="ms-lg-2">
                 <router-link to="/login" class="btn btn-dark w-xs">Ingresar</router-link>

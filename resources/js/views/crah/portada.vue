@@ -29,7 +29,7 @@ import MiembrosInte from './Miembros.vue';
 import Documentos from './Documentos.vue';
 import Slidernoticias from './Carrouselnoticias.vue'
 import Enlacesrefes from './Enlacesreferenciales.vue'
-
+import axios from "axios";
 
 export default {
     components: {
@@ -65,7 +65,8 @@ export default {
                 [576, 2],
                 [768, 3],
                 [992, 4]
-            ]
+            ],
+            datoslider:{}
         };
     },
     created() {
@@ -89,6 +90,8 @@ export default {
                 });
             });
         });
+
+        this.slider();
     },
     computed: {
         dateDiff() {
@@ -96,6 +99,7 @@ export default {
             var date2 = new Date(2023, 12, 31, 0, 0, 0);
             return date2.getTime() - now.getTime();
         }
+
     },
     methods: {
         /**
@@ -122,7 +126,17 @@ export default {
                     }
                 }
             }, 100);
-        }
+        },
+        slider() {
+            var url = '/slider'
+            axios.get(url).then(res => {
+                this.datoslider = res.data;
+            })
+        },
+        // recorta_cad(texto) {
+        //     var substr = texto.substr(7);
+        //     return substr;
+        // },
     }
 };
 </script>
@@ -161,9 +175,9 @@ export default {
                     <li class="nav-item">
                         <a class="nav-link" href="#noticias">Noticas</a>
                     </li>
- 
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#denuncia">Sugerencias</a>
+                        <a class="nav-link" href="https://facilita.gob.pe/t/16438" target="_blank">Sugerencias</a>
                     </li>
                 </ul>
 
@@ -195,7 +209,7 @@ export default {
                 <div class="col-lg-5 col-md-8 col-sm-10 ms-lg-auto">
                     <div class="card overflow-hidden mb-0 mt-5 mt-lg-0">
                         <!-- succes -->
-                        <img :src="'https://scontent.flim14-1.fna.fbcdn.net/v/t39.30808-6/241182539_107108208423179_8466610227786207318_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeEBKlgJmnDge7eTd8RchMboakJkFgBZxAxqQmQWAFnEDFumE3myAin_G16YobV53iw&_nc_ohc=npvA_ypQPEgQ7kNvgGLbIef&_nc_zt=23&_nc_ht=scontent.flim14-1.fna&_nc_gid=AXI3S_ian8YYi8JuyHlUjRh&oh=00_AYBAlpDfuFkG1oU6bfpiDT0Pv7WHgdcmSWgM35cRDYGjlQ&oe=674BA58E'" alt="">
+                        <img :src="'http://gestionportales.regionhuanuco.gob.pe/storage/'+datoslider" alt="">
                     </div>
                 </div>
             </div>
@@ -474,7 +488,7 @@ export default {
 
             <div class="row">
                 <Enlacesrefes />
-                
+
             </div>
             <!-- end row -->
         </div>
