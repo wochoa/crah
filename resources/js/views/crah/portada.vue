@@ -224,7 +224,7 @@ export default {
                                         <p class="text-muted text-truncate mb-0">Documentos de gestión</p>
                                         <!-- <button class="btn btn-sm btn-danger">Hacer click</button> -->
                                         <router-link to="/documentos/crah" class="btn btn-sm btn-danger">
-                                            Hacer click
+                                            ver documentos
                                         </router-link>
                                     </div>
                                 </div>
@@ -245,7 +245,7 @@ export default {
                                         <p class="text-muted text-truncate mb-0">Eventos CRAH</p>
                                         <!-- <button class="btn btn-sm btn-danger">Hacer click</button> -->
                                         <router-link to="/eventos/lista" class="btn btn-sm btn-danger">
-                                            Hacer click
+                                            Ver eventos
                                         </router-link>
                                     </div>
                                 </div>
@@ -265,7 +265,7 @@ export default {
                                         <h5 class="text-muted">Documentos</h5>
                                         <p class="text-muted text-truncate mb-0">Actas, Acuerdos, etc.</p>
                                         <router-link to="/documentos/internos" class="btn btn-sm btn-danger">
-                                            Hacer click
+                                            Ver documentos
                                         </router-link>
                                     </div>
                                 </div>
