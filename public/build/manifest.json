@@ -462,7 +462,7 @@
     "src": "resources/js/views/account/login.vue"
   },
   "resources/js/views/crah/Actascrha.vue": {
-    "file": "assets/Actascrha-58fb6a95.js",
+    "file": "assets/Actascrha-c3c4dcb3.js",
     "imports": [
       "_page-header-a85ecb4e.js",
       "_vue3-datepicker-ad05e99e.js",
@@ -564,7 +564,7 @@
     "css": [
       "css/portada.min.css"
     ],
-    "file": "assets/portada-cd3adc32.js",
+    "file": "assets/portada-18c51529.js",
     "imports": [
       "resources/js/app.js",
       "_logo-dark-5cfa2f4b.js",

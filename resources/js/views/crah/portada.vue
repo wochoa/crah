@@ -155,9 +155,9 @@ export default {
                     <li class="nav-item">
                         <a class="nav-link" href="#about">Quienes somos</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#documentos">Documentos</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="#noticias">Noticas</a>
                     </li>
@@ -449,14 +449,14 @@ export default {
         </div>
     </section>
 
-    <section class="section pt-4" id="documentos" style="background-color: #d5d5d5 !important;">
+    <!-- <section class="section pt-4" id="documentos" style="background-color: #d5d5d5 !important;">
         <div class="container">
             <div class="container">
                 <Documentos />
             </div>
         </div>
-        <!-- end container -->
-    </section>
+
+    </section> -->
     <!-- Features end -->
 
     <!-- Faqs instrituciones miembros del CRAH start -->
