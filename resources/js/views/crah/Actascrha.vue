@@ -52,8 +52,8 @@ export default {
 <!-- <Layout> -->
 
 <Header />
-<div v-html="data_marconomativo.cont_pagina">
-</div>
+<!-- <div v-html="data_marconomativo.cont_pagina">
+</div> -->
 
 <div class="container">
     <PageHeader :title="title" :items="items" class="pt-5 mt-5" />
@@ -179,20 +179,179 @@ export default {
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <table class="table table-hover table-responsive-sm table-bordered">
+                            <thead>
+                                <tr>
+                                    <th style="width: 10px">#</th>
+                                    <th>Descripción</th>
+                                    <th>Enlace</th>                                    
+                                </tr>
+                            </thead>
+                            <tbody>                          
+                                <tr>
+                                    <td>1.</td>
+                                    <td>ACTA FEBRERO</td>
+                                    <td><a href="https://drive.google.com/file/d/1jbtDdzldTc-mPGmqtr-1EF9_DMOpDg75/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>                                    
+                                </tr>
+                                <tr>
+                                    <td>2.</td>
+                                    <td>ACTA MARZO</td>
+                                    <td><a href="https://drive.google.com/file/d/1HpMxRUhvfqv0sNlrne3fkx7lBgE-6XbW/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>                                    
+                                </tr>
+                                <tr>
+                                    <td>3.</td>
+                                    <td>ACTA MAYO</td>
+                                    <td><a href="https://drive.google.com/file/d/1oKwV7wKVo7fW7-VOCZIXhmlb9MGeFGox/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>                                    
+                                </tr>
+                                <tr>
+                                    <td>4.</td>
+                                    <td>ACTA 8 JUNIO</td>
+                                    <td><a href="https://drive.google.com/file/d/1PbVcnwXvPq10UJaR7zFE4JeOmqUGmPC1/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>                                    
+                                </tr>
+                                <tr>
+                                    <td>5.</td>
+                                    <td>ACTA 20 JUNIO</td>
+                                    <td><a href="https://drive.google.com/file/d/1BqY142oVksBSRENGuLiF0oMcDyQkMjDv/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>                                    
+                                </tr>
+                                <tr>
+                                    <td>6.</td>
+                                    <td>ACTA 19 JULIO</td>
+                                    <td><a href="https://drive.google.com/file/d/1YCxJfEr0ma9qX7_rtoL_RP5AVeH5ZEwt/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>                                    
+                                </tr>
+                                <tr>
+                                    <td>7.</td>
+                                    <td>ACTA 12 AGOSTO</td>
+                                    <td><a href="https://drive.google.com/file/d/191fD6fZr2MexF3UxpypHWmkMQ037BAie/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>                                    
+                                </tr>
+                                <tr>
+                                    <td>8.</td>
+                                    <td>ACTA 19 DICIEMBRE</td>
+                                    <td><a href="https://drive.google.com/file/d/1nVhm1kGAWTqo4Wi7AW2LtGJnCdQsW9is/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>                                    
+                                </tr>
+                                
+                            </tbody>
+                        </table>
                 </div>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                    ACTAS 2022
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse21" aria-expanded="false" aria-controls="collapse21">
+                    ACTAS 2021
                 </button>
             </h2>
-            <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div id="collapse21" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <table class="table table-hover table-responsive-sm table-bordered">
+                            <thead>
+                                <tr>
+                                    <th style="width: 10px">#</th>
+                                    <th>Descripción</th>
+                                    <th>Enlace</th>                                    
+                                </tr>
+                            </thead>
+                            <tbody>                          
+                                <tr>
+                                    <td>1.</td>
+                                    <td>ACTA 14 SETIEMBRE</td>
+                                    <td><a href="https://drive.google.com/file/d/18Kyc-jvzaVjLI9HtbksPDuqeIsCCzT3_/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>                                    
+                                </tr>
+                                <tr>
+                                    <td>2.</td>
+                                    <td>ACTA 21 SETIEMBRE</td>
+                                    <td><a href="https://drive.google.com/file/d/1iCIL42P4UrPTeGt8MOWwda9UFPPo-RWA/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>                                    
+                                </tr>
+                                <tr>
+                                    <td>3.</td>
+                                    <td>ACTA 1 DE OCTUBRE</td>
+                                    <td><a href="https://drive.google.com/file/d/1vqDa2bRxDwyWbak84LeoDI-DyoSS8v5c/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>                                    
+                                </tr>
+                                <tr>
+                                    <td>4.</td>
+                                    <td>ACTA 5 OCTUBRE</td>
+                                    <td><a href="https://drive.google.com/file/d/1h-2T7LhCnqo6yqwL1Ov2_WQNXsaJ46nr/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>                                    
+                                </tr>
+                                <tr>
+                                    <td>5.</td>
+                                    <td>ACTA 22 OCTUBRE</td>
+                                    <td><a href="https://drive.google.com/file/d/1FrziX65iOImsO25n_u1wYJt_3gOT5Baz/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>                                    
+                                </tr>
+                                <tr>
+                                    <td>6.</td>
+                                    <td>ACTA 30 NOVIEMBRE</td>
+                                    <td><a href="https://drive.google.com/file/d/15J2cTuHyGvQ8mkKxVYfh48lURfcTgnNS/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>                                    
+                                </tr>
+                                
+                                
+                            </tbody>
+                        </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
+                    ACTAS 2017
+                </button>
+            </h2>
+            <div id="collapse17" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <table class="table table-hover table-responsive-sm table-bordered">
+                            <thead>
+                                <tr>
+                                    <th style="width: 10px">#</th>
+                                    <th>Descripción</th>
+                                    <th>Enlace</th>                                    
+                                </tr>
+                            </thead>
+                            <tbody>                          
+                                <tr>
+                                    <td>1.</td>
+                                    <td>ACTA 28 MARZO</td>
+                                    <td><a href="https://drive.google.com/file/d/1C0_oe4ogmmHjpSHzxj2RB8IP196w90E4/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>                                    
+                                </tr>
+                                <tr>
+                                    <td>2.</td>
+                                    <td>ACTA 5 JUNIO</td>
+                                    <td><a href="https://drive.google.com/file/d/17UlnpE9SqeHGWeXmEX7tx-KeWDZzDCZg/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>                                    
+                                </tr>
+                                
+                                
+                                
+                            </tbody>
+                        </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
+                    ACTAS 2016
+                </button>
+            </h2>
+            <div id="collapse16" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <table class="table table-hover table-responsive-sm table-bordered">
+                            <thead>
+                                <tr>
+                                    <th style="width: 10px">#</th>
+                                    <th>Descripción</th>
+                                    <th>Enlace</th>                                    
+                                </tr>
+                            </thead>
+                            <tbody>                          
+                                <tr>
+                                    <td>1.</td>
+                                    <td>ACTA 6 DICIEMBRE</td>
+                                    <td><a href="https://drive.google.com/file/d/1qiToZZ4XNacrlzvMi1DCr-HCej8mef_8/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>                                    
+                                </tr>
+                                
+                                
+                            </tbody>
+                        </table>
                 </div>
             </div>
         </div>
