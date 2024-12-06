@@ -19,15 +19,15 @@
     ],
     "file": "assets/carlosconsejero-de48764e.js"
   },
-  "_img-7-fa5b6c8f.js": {
+  "_img-7-fff39a51.js": {
     "assets": [
       "icons/img-12.jpg",
-      "icons/img-22.jpg",
+      "icons/img-2.jpg",
       "icons/img-4.jpg",
       "icons/img-6.jpg",
       "icons/img-7.jpg"
     ],
-    "file": "assets/img-7-fa5b6c8f.js"
+    "file": "assets/img-7-fff39a51.js"
   },
   "_index-62da23e9.js": {
     "file": "assets/index-62da23e9.js",
@@ -313,7 +313,7 @@
     "src": "resources/images/crypto/blog/img-1.jpg"
   },
   "resources/images/crypto/blog/img-2.jpg": {
-    "file": "icons/img-2.jpg",
+    "file": "icons/img-22.jpg",
     "src": "resources/images/crypto/blog/img-2.jpg"
   },
   "resources/images/crypto/blog/img-3.jpg": {
@@ -393,7 +393,7 @@
     "src": "resources/images/small/img-1.jpg"
   },
   "resources/images/small/img-2.jpg": {
-    "file": "icons/img-22.jpg",
+    "file": "icons/img-2.jpg",
     "src": "resources/images/small/img-2.jpg"
   },
   "resources/images/small/img-4.jpg": {
@@ -488,11 +488,11 @@
     "src": "resources/js/views/crah/Listadomiembros.vue"
   },
   "resources/js/views/crah/Listadonoticias.vue": {
-    "file": "assets/Listadonoticias-0ef3ed80.js",
+    "file": "assets/Listadonoticias-de85dd43.js",
     "imports": [
       "_Header-a369a968.js",
       "_page-header-a85ecb4e.js",
-      "_img-7-fa5b6c8f.js",
+      "_img-7-fff39a51.js",
       "_index-62da23e9.js",
       "resources/js/app.js",
       "_logo-dark-5cfa2f4b.js"
@@ -501,11 +501,11 @@
     "src": "resources/js/views/crah/Listadonoticias.vue"
   },
   "resources/js/views/crah/Listaeventos.vue": {
-    "file": "assets/Listaeventos-0980bc01.js",
+    "file": "assets/Listaeventos-634e1699.js",
     "imports": [
       "_Header-a369a968.js",
       "_page-header-a85ecb4e.js",
-      "_img-7-fa5b6c8f.js",
+      "_img-7-fff39a51.js",
       "resources/js/app.js",
       "_logo-dark-5cfa2f4b.js"
     ],
@@ -547,7 +547,7 @@
       "icons/img-1.png",
       "icons/img-2.png",
       "icons/img-1.jpg",
-      "icons/img-2.jpg",
+      "icons/img-22.jpg",
       "icons/img-3.jpg",
       "icons/pj.png",
       "icons/prefectura-hco.jpg",
@@ -564,7 +564,7 @@
     "css": [
       "css/portada.min.css"
     ],
-    "file": "assets/portada-6c83e5fb.js",
+    "file": "assets/portada-297aa5c3.js",
     "imports": [
       "resources/js/app.js",
       "_logo-dark-5cfa2f4b.js",

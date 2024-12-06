@@ -376,7 +376,7 @@ export default {
                     <div class="mt-4 mt-lg-0">
                         <div class="row">
                             <div class="col-sm-6">
-                                <div class="card border shadow-sm bg-secondary">
+                                <div class="card border shadow-sm" style="background-color: #791111;">
                                     <div class="card-body">
                                         <div class="mb-3">
                                             <i class="mdi mdi-bullseye h2 text-white"></i>
@@ -392,7 +392,7 @@ export default {
                                 </div>
                             </div>
                             <div class="col-sm-6">
-                                <div class="card border shadow-sm mt-lg-5 bg-secondary">
+                                <div class="card border shadow-sm mt-lg-5" style="background-color: #791111;">
                                     <div class="card-body">
                                         <div class="mb-3">
                                             <i class="mdi mdi-eye-circle h2 text-white"></i>
