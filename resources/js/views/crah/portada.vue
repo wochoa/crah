@@ -198,10 +198,10 @@ export default {
                         <h1 class="text-white fw-semibold mb-3 hero-title">
                             Comisión Regional Anticorrupción de Huánuco
                         </h1>
-                        <p class="h4">Implementaremos lineamientos y estándares de cumplimiento en materia de integridad y lucha contra la corrupción en el departamento de Huánuco...</p>
+                        <p class="h4">Es un espacio de coordinación entre instituciones públicas, privadas y de la sociedad civil para prevenir, detectar y combatir la corrupción en una región Huánuco</p>
 
                         <div class="button-items mt-4">
-                            <a href="#" class="btn btn-dark me-2">Leer más</a>
+                            <!-- <a href="#" class="btn btn-dark me-2">Leer más</a> -->
                             <!-- <a href="#" class="btn btn-light">How it work</a> -->
                         </div>
                     </div>
