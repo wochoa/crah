@@ -1,1 +1,0 @@
-const o="/build/icons/jaimepoderj.jpeg",s="/build/icons/rodolfovega.jpeg",a="/build/icons/fredyaguirre.jpeg",e="/build/icons/emma.jpeg",i="/build/icons/miguel.jpeg",c="/build/icons/pulgar.jpeg",n="/build/icons/marcodurand.jpeg",r="/build/icons/carlosconsejero.jpg";export{r as C,e as E,a as F,o as J,i as M,c as P,s as R,n as a};

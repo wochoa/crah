@@ -4,14 +4,15 @@ import PageHeader from "../../components/page-header.vue";
 import Datepicker from "vue3-datepicker";
 import Header from './Header.vue';
 
-import Jaimegeronimo from '../../../images/crah/miembros/jaimepoderj.jpeg';
+import Jaimegeronimo from '../../../images/crah/miembros/presidente.jpg';
 
-import Rodolfovega from '../../../images/crah/miembros/rodolfovega.jpeg';
-import Fredyaguirre from '../../../images/crah/miembros/fredyaguirre.jpeg';
+import Rodolfovega from '../../../images/crah/miembros/rodolfovega.jpg';
+import Fredyaguirre from '../../../images/crah/miembros/fredyaguirre.jpg';
+// import Procuradora from '../../../images/crah/miembros/procuradora.jpg';
 import Emma from '../../../images/crah/miembros/emma.jpeg';
 import Miguel from '../../../images/crah/miembros/miguel.jpeg';
 import Pulgar from '../../../images/crah/miembros/pulgar.jpeg';
-import Marcodurand from '../../../images/crah/miembros/marcodurand.jpeg';
+import Marcodurand from '../../../images/crah/miembros/marcodurand.jpg';
 import Carlosconsejero from '../../../images/crah/miembros/carlosconsejero.jpg';
 
 

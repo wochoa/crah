@@ -522,10 +522,9 @@ export default {
         </div>
 
         <hr>
-        
+
         <div class="accordion" id="plananual1">
 
-            
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panaul" aria-expanded="false" aria-controls="panaul">
@@ -567,11 +566,119 @@ export default {
                 </div>
             </div>
 
-            
+        </div>
+        <hr>
+        <h4>ASISTENCIA A SESIONES</h4>
+
+        <div class="accordion" id="plananual2">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panaul2" aria-expanded="false" aria-controls="panaul2">
+                        2024
+                    </button>
+                </h2>
+                <div id="panaul2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#plananual2">
+                    <div class="accordion-body">
+                        <table class="table table-hover table-responsive-sm table-bordered">
+                            <thead>
+                                <tr>
+                                    <th style="width: 10px">#</th>
+                                    <th>Descripción</th>
+                                    <th>Enlace</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+                                    <td>1.</td>
+                                    <td>ASISTENCIA 25 ABRIL 2024</td>
+                                    <td><a href="https://drive.google.com/file/d/1UdykZ0aKlfNYmAyTqjzkTpokq7sf3Egt/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>
+                                </tr>
+                                <tr>
+                                    <td>2.</td>
+                                    <td>ASISTENCIA 4 ABRIL 2024</td>
+                                    <td><a href="https://drive.google.com/file/d/1Qeva4qxcKHzAzONMM5YgChCk2ir45P4S/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panaul3" aria-expanded="false" aria-controls="panaul3">
+                        2023
+                    </button>
+                </h2>
+                <div id="panaul3" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#plananual2">
+                    <div class="accordion-body">
+                        <table class="table table-hover table-responsive-sm table-bordered">
+                            <thead>
+                                <tr>
+                                    <th style="width: 10px">#</th>
+                                    <th>Descripción</th>
+                                    <th>Enlace</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+                                    <td>1.</td>
+                                    <td>ASISTENCIA 5 OCTUBRE 2023</td>
+                                    <td><a href="https://drive.google.com/file/d/1BiGd5qAxwvRRft9RV5KBwpyNCAj1CQM_/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>
+                                </tr>
+                                <tr>
+                                    <td>2.</td>
+                                    <td>ASISTENCIA 11 JULIO 2023</td>
+                                    <td><a href="https://drive.google.com/file/d/1B24nWqHjKRoFcCWiTsSsEz_9R7JuWr1Q/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>3.</td>
+                                    <td>ASISTENCIA 22 JUNIO 2023</td>
+                                    <td><a href="https://drive.google.com/file/d/1RZ0jUl-N64Eb4dzC_e0YkXNSAWWZI5Xs/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>4.</td>
+                                    <td>ASISTENCIA 03 ABRIL 2023</td>
+                                    <td><a href="https://drive.google.com/file/d/1P4sNiN_v0MP03XXBYUlNuo9f_4J-NCBA/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>5.</td>
+                                    <td>ASISTENCIA 15 MARZO 2023</td>
+                                    <td><a href="https://drive.google.com/file/d/19H_qFu8C371WY2bo65zbdNpO-o4h_UdK/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>6.</td>
+                                    <td>ASISTENCIA 28 FEBRERO 2023</td>
+                                    <td><a href="https://drive.google.com/file/d/1pG65ZfHTSc7Xeg7ccNHiQO9XKgEx-RGC/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>7.</td>
+                                    <td>ASISTENCIA 25 ENERO 2023</td>
+                                    <td><a href="https://drive.google.com/file/d/1XLnrlg3MjnNojuCX6RMoT15kXfMuJZNK/view?usp=sharing" target="_blank"><span class="mailbox-attachment-icon" style="font-size: 25px !important; padding: 3px !important; color:#ff0909;"><i class="far fa-file-pdf"></i></span></a></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
 
         </div>
+
         <!-- end container -->
     </section>
 
 </div>
 </template>
+    

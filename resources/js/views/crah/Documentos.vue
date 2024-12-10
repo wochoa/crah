@@ -1,10 +1,10 @@
 <script>
-import Jaimegeronimo from '../../../images/crah/miembros/jaimegeronimo.jpg';
+// import Jaimegeronimo from '../../../images/crah/miembros/jaimegeronimo.jpg';
 export default {
 
     data() {
         return {
-            Jaimegeronimo,
+            // Jaimegeronimo,
 
         }
     }

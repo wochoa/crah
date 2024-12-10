@@ -1,0 +1,1 @@
+const o="/build/icons/presidente.jpg",s="/build/icons/rodolfovega.jpg",a="/build/icons/fredyaguirre.jpg",i="/build/icons/emma.jpeg",e="/build/icons/miguel.jpeg",n="/build/icons/pulgar.jpeg",c="/build/icons/marcodurand.jpg",r="/build/icons/carlosconsejero.jpg";export{r as C,i as E,a as F,o as J,e as M,n as P,s as R,c as a};

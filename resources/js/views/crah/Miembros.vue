@@ -7,14 +7,15 @@ import {Swiper,SwiperSlide} from 'vue-awesome-swiper';
   import 'swiper/css'
   import 'swiper/css/pagination'
 
-import Jaimegeronimo from '../../../images/crah/miembros/jaimepoderj.jpeg';
+import Jaimegeronimo from '../../../images/crah/miembros/presidente.jpg';
 
-import Rodolfovega from '../../../images/crah/miembros/rodolfovega.jpeg';
-import Fredyaguirre from '../../../images/crah/miembros/fredyaguirre.jpeg';
+import Rodolfovega from '../../../images/crah/miembros/rodolfovega.jpg';
+import Fredyaguirre from '../../../images/crah/miembros/fredyaguirre.jpg';
+import Procuradora from '../../../images/crah/miembros/procuradora.jpg';
 import Emma from '../../../images/crah/miembros/emma.jpeg';
 import Miguel from '../../../images/crah/miembros/miguel.jpeg';
 import Pulgar from '../../../images/crah/miembros/pulgar.jpeg';
-import Marcodurand from '../../../images/crah/miembros/marcodurand.jpeg';
+import Marcodurand from '../../../images/crah/miembros/marcodurand.jpg';
 import Carlosconsejero from '../../../images/crah/miembros/carlosconsejero.jpg';
 
 export default {
@@ -34,6 +35,11 @@ export default {
                     cargo: "Presidente de la Corte Superior de Justicia de Huánuco / Presidente de la Comisión Regional Anticorrupción Huánuco",
                 },
                 {
+                    foto: Procuradora,
+                    nombre: "Dra. KRUPSKAIA JESMIDLU BERAUN AGUIRRE",
+                    cargo: "Procuradora Público Anticorrupción Descentralizado de Huánuco",
+                },
+                {
                     foto: Rodolfovega,
                     nombre: "Dr. Rodolfo Vega Billán",
                     cargo: "Presidente de la Junta de Fiscales Superiores del Distrito Fiscal de Huánuco",
@@ -42,6 +48,11 @@ export default {
                     foto: Fredyaguirre,
                     nombre: "Dr. Freddy S. Aguirre Melgarejo",
                     cargo: "Decano del Colegio de Periodistas Consejo Regional Huánuco",
+                },
+                {
+                    foto: Marcodurand,
+                    nombre: "Marco O. Durand Rocca",
+                    cargo: "Jefe de la Oficina de la Defensoria del Pueblo de Huánuco",
                 },
                 {
                     foto: Emma,
@@ -58,16 +69,13 @@ export default {
                     nombre: "Antonio L. Pulgar Lucas",
                     cargo: "Gobernador Regional",
                 },
-                {
-                    foto: Marcodurand,
-                    nombre: "Marco O. Durand Rocca",
-                    cargo: "Jefe de la Oficina de la Defensoria del Pueblo de Huánuco",
-                },
+                
                 {
                     foto: Carlosconsejero,
                     nombre: "Carlos A.  Esteban Atencia",
                     cargo: "Consejero Delegado",
                 },
+                
 
             ],
 

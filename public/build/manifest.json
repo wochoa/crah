@@ -6,18 +6,18 @@
       "resources/js/app.js"
     ]
   },
-  "_carlosconsejero-de48764e.js": {
+  "_carlosconsejero-73a3f1a6.js": {
     "assets": [
-      "icons/jaimepoderj.jpeg",
-      "icons/rodolfovega.jpeg",
-      "icons/fredyaguirre.jpeg",
+      "icons/presidente.jpg",
+      "icons/rodolfovega.jpg",
+      "icons/fredyaguirre.jpg",
       "icons/emma.jpeg",
       "icons/miguel.jpeg",
       "icons/pulgar.jpeg",
-      "icons/marcodurand.jpeg",
+      "icons/marcodurand.jpg",
       "icons/carlosconsejero.jpg"
     ],
-    "file": "assets/carlosconsejero-de48764e.js"
+    "file": "assets/carlosconsejero-73a3f1a6.js"
   },
   "_img-7-fff39a51.js": {
     "assets": [
@@ -260,33 +260,33 @@
     "file": "icons/emma.jpeg",
     "src": "resources/images/crah/miembros/emma.jpeg"
   },
-  "resources/images/crah/miembros/fredyaguirre.jpeg": {
-    "file": "icons/fredyaguirre.jpeg",
-    "src": "resources/images/crah/miembros/fredyaguirre.jpeg"
+  "resources/images/crah/miembros/fredyaguirre.jpg": {
+    "file": "icons/fredyaguirre.jpg",
+    "src": "resources/images/crah/miembros/fredyaguirre.jpg"
   },
-  "resources/images/crah/miembros/jaimegeronimo.jpg": {
-    "file": "icons/jaimegeronimo.jpg",
-    "src": "resources/images/crah/miembros/jaimegeronimo.jpg"
-  },
-  "resources/images/crah/miembros/jaimepoderj.jpeg": {
-    "file": "icons/jaimepoderj.jpeg",
-    "src": "resources/images/crah/miembros/jaimepoderj.jpeg"
-  },
-  "resources/images/crah/miembros/marcodurand.jpeg": {
-    "file": "icons/marcodurand.jpeg",
-    "src": "resources/images/crah/miembros/marcodurand.jpeg"
+  "resources/images/crah/miembros/marcodurand.jpg": {
+    "file": "icons/marcodurand.jpg",
+    "src": "resources/images/crah/miembros/marcodurand.jpg"
   },
   "resources/images/crah/miembros/miguel.jpeg": {
     "file": "icons/miguel.jpeg",
     "src": "resources/images/crah/miembros/miguel.jpeg"
   },
+  "resources/images/crah/miembros/presidente.jpg": {
+    "file": "icons/presidente.jpg",
+    "src": "resources/images/crah/miembros/presidente.jpg"
+  },
+  "resources/images/crah/miembros/procuradora.jpg": {
+    "file": "icons/procuradora.jpg",
+    "src": "resources/images/crah/miembros/procuradora.jpg"
+  },
   "resources/images/crah/miembros/pulgar.jpeg": {
     "file": "icons/pulgar.jpeg",
     "src": "resources/images/crah/miembros/pulgar.jpeg"
   },
-  "resources/images/crah/miembros/rodolfovega.jpeg": {
-    "file": "icons/rodolfovega.jpeg",
-    "src": "resources/images/crah/miembros/rodolfovega.jpeg"
+  "resources/images/crah/miembros/rodolfovega.jpg": {
+    "file": "icons/rodolfovega.jpg",
+    "src": "resources/images/crah/miembros/rodolfovega.jpg"
   },
   "resources/images/crah/minjus.png": {
     "file": "icons/minjus.png",
@@ -475,12 +475,12 @@
     "src": "resources/js/views/crah/Actascrha.vue"
   },
   "resources/js/views/crah/Listadomiembros.vue": {
-    "file": "assets/Listadomiembros-83e864d0.js",
+    "file": "assets/Listadomiembros-e7ae7b7d.js",
     "imports": [
       "_page-header-a85ecb4e.js",
       "_vue3-datepicker-ad05e99e.js",
       "_Header-a369a968.js",
-      "_carlosconsejero-de48764e.js",
+      "_carlosconsejero-73a3f1a6.js",
       "resources/js/app.js",
       "_logo-dark-5cfa2f4b.js"
     ],
@@ -559,17 +559,17 @@
       "icons/minjus.png",
       "icons/minjusAnt.png",
       "icons/Defensoría_del_Pueblo.png",
-      "icons/jaimegeronimo.jpg"
+      "icons/procuradora.jpg"
     ],
     "css": [
       "css/portada.min.css"
     ],
-    "file": "assets/portada-ba85026a.js",
+    "file": "assets/portada-32dfaa0b.js",
     "imports": [
       "resources/js/app.js",
       "_logo-dark-5cfa2f4b.js",
       "_pagination.min-5176cc8d.js",
-      "_carlosconsejero-de48764e.js",
+      "_carlosconsejero-73a3f1a6.js",
       "_index-62da23e9.js"
     ],
     "isDynamicEntry": true,
