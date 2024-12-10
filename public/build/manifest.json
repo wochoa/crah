@@ -6,7 +6,7 @@
       "resources/js/app.js"
     ]
   },
-  "_carlosconsejero-d5ee348f.js": {
+  "_ceciliacook-e960599c.js": {
     "assets": [
       "icons/presidente.jpg",
       "icons/rodolfovega.jpg",
@@ -17,19 +17,22 @@
       "icons/miguel.jpg",
       "icons/pulgar.jpeg",
       "icons/marcodurand.jpg",
-      "icons/carlosconsejero.jpg"
+      "icons/olgaugarte.jpg",
+      "icons/carlosconsejero.jpg",
+      "icons/seberotiburcio.jpg",
+      "icons/ceciliacook.jpg"
     ],
-    "file": "assets/carlosconsejero-d5ee348f.js"
+    "file": "assets/ceciliacook-e960599c.js"
   },
-  "_img-7-fff39a51.js": {
+  "_img-7-4d91fab5.js": {
     "assets": [
-      "icons/img-12.jpg",
+      "icons/img-1.jpg",
       "icons/img-2.jpg",
       "icons/img-4.jpg",
       "icons/img-6.jpg",
       "icons/img-7.jpg"
     ],
-    "file": "assets/img-7-fff39a51.js"
+    "file": "assets/img-7-4d91fab5.js"
   },
   "_index-62da23e9.js": {
     "file": "assets/index-62da23e9.js",
@@ -327,7 +330,7 @@
     "src": "resources/images/crah/prefectura-hco.jpg"
   },
   "resources/images/crypto/blog/img-1.jpg": {
-    "file": "icons/img-1.jpg",
+    "file": "icons/img-12.jpg",
     "src": "resources/images/crypto/blog/img-1.jpg"
   },
   "resources/images/crypto/blog/img-2.jpg": {
@@ -407,7 +410,7 @@
     "src": "resources/images/profile-img.png"
   },
   "resources/images/small/img-1.jpg": {
-    "file": "icons/img-12.jpg",
+    "file": "icons/img-1.jpg",
     "src": "resources/images/small/img-1.jpg"
   },
   "resources/images/small/img-2.jpg": {
@@ -493,12 +496,12 @@
     "src": "resources/js/views/crah/Actascrha.vue"
   },
   "resources/js/views/crah/Listadomiembros.vue": {
-    "file": "assets/Listadomiembros-fe4036b0.js",
+    "file": "assets/Listadomiembros-b472d527.js",
     "imports": [
       "_page-header-a85ecb4e.js",
       "_vue3-datepicker-ad05e99e.js",
       "_Header-a369a968.js",
-      "_carlosconsejero-d5ee348f.js",
+      "_ceciliacook-e960599c.js",
       "resources/js/app.js",
       "_logo-dark-5cfa2f4b.js"
     ],
@@ -506,11 +509,11 @@
     "src": "resources/js/views/crah/Listadomiembros.vue"
   },
   "resources/js/views/crah/Listadonoticias.vue": {
-    "file": "assets/Listadonoticias-de85dd43.js",
+    "file": "assets/Listadonoticias-0aee7f7b.js",
     "imports": [
       "_Header-a369a968.js",
       "_page-header-a85ecb4e.js",
-      "_img-7-fff39a51.js",
+      "_img-7-4d91fab5.js",
       "_index-62da23e9.js",
       "resources/js/app.js",
       "_logo-dark-5cfa2f4b.js"
@@ -519,11 +522,11 @@
     "src": "resources/js/views/crah/Listadonoticias.vue"
   },
   "resources/js/views/crah/Listaeventos.vue": {
-    "file": "assets/Listaeventos-634e1699.js",
+    "file": "assets/Listaeventos-d8996685.js",
     "imports": [
       "_Header-a369a968.js",
       "_page-header-a85ecb4e.js",
-      "_img-7-fff39a51.js",
+      "_img-7-4d91fab5.js",
       "resources/js/app.js",
       "_logo-dark-5cfa2f4b.js"
     ],
@@ -564,7 +567,7 @@
     "assets": [
       "icons/img-1.png",
       "icons/img-2.png",
-      "icons/img-1.jpg",
+      "icons/img-12.jpg",
       "icons/img-22.jpg",
       "icons/img-3.jpg",
       "icons/pj.png",
@@ -576,20 +579,17 @@
       "icons/contraloria.jpg",
       "icons/minjus.png",
       "icons/minjusAnt.png",
-      "icons/Defensoría_del_Pueblo.png",
-      "icons/olgaugarte.jpg",
-      "icons/seberotiburcio.jpg",
-      "icons/ceciliacook.jpg"
+      "icons/Defensoría_del_Pueblo.png"
     ],
     "css": [
       "css/portada.min.css"
     ],
-    "file": "assets/portada-62f9dc38.js",
+    "file": "assets/portada-0a05e70b.js",
     "imports": [
       "resources/js/app.js",
       "_logo-dark-5cfa2f4b.js",
       "_pagination.min-5176cc8d.js",
-      "_carlosconsejero-d5ee348f.js",
+      "_ceciliacook-e960599c.js",
       "_index-62da23e9.js"
     ],
     "isDynamicEntry": true,
