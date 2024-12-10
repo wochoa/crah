@@ -14,7 +14,10 @@ import Emma from '../../../images/crah/miembros/emma.jpeg';
 import Miguel from '../../../images/crah/miembros/miguel.jpg';
 import Pulgar from '../../../images/crah/miembros/pulgar.jpeg';
 import Marcodurand from '../../../images/crah/miembros/marcodurand.jpg';
+import Olgaugarte from '../../../images/crah/miembros/olgaugarte.jpg';
 import Carlosconsejero from '../../../images/crah/miembros/carlosconsejero.jpg';
+import Seberotiburcio from '../../../images/crah/miembros/seberotiburcio.jpg';
+import Ceciliacook from '../../../images/crah/miembros/ceciliacook.jpg';
 
 
 /**
@@ -40,8 +43,11 @@ export default {
             Emma,
             Miguel,
             Pulgar,
-            Marcodurand,            
+            Marcodurand, 
+            Olgaugarte,           
             Carlosconsejero,
+            Seberotiburcio,
+            Ceciliacook,
 
             title: "Documentos normativos",
             listDeleteModal: false,
@@ -55,10 +61,16 @@ export default {
                 }
             ],
             datepickervalue: new Date(),
-            datosmiembros: [{
+            datosmiembros: [
+                {
                     foto: Jaimegeronimo,
                     nombre: "Dr. Jaime Gerónimo De la Cruz",
                     cargo: "Presidente de la Corte Superior de Justicia de Huánuco / Presidente de la Comisión Regional Anticorrupción Huánuco",
+                },
+                {
+                    foto: Procuradora,
+                    nombre: "Dra. KRUPSKAIA JESMIDLU BERAUN AGUIRRE",
+                    cargo: "Procuradora Público Anticorrupción Descentralizado de Huánuco",
                 },
                 {
                     foto: Rodolfovega,
@@ -66,9 +78,19 @@ export default {
                     cargo: "Presidente de la Junta de Fiscales Superiores del Distrito Fiscal de Huánuco",
                 },
                 {
+                    foto: Luismendoza,
+                    nombre: "Cmdt. GERARDO LUIS MENDOZA CAMARENA",
+                    cargo: "Departamento Desconcentrado de Investigación contra la Corrupción – DIRCOCOR",
+                },
+                {
                     foto: Fredyaguirre,
-                    nombre: "Dr. Freddy S. Aguirre Melgarejo",
-                    cargo: "Decano del Colegio de Periodistas Consejo Regional Huánuco",
+                    nombre: "Mag. FREDDY SILES AGUIRRE MELGAREJO",
+                    cargo: "Decano del Colegio de Periodistas Consejo Regional Huánuco.",
+                },
+                {
+                    foto: Marcodurand,
+                    nombre: "Marco O. Durand Rocca",
+                    cargo: "Jefe de la Oficina de la Defensoria del Pueblo de Huánuco",
                 },
                 {
                     foto: Emma,
@@ -81,15 +103,26 @@ export default {
                     cargo: "Presidente de la Cámara de Comercio e Industrias de Huánuco",
                 },
                 {
+                    foto: Olgaugarte,
+                    nombre: "Sra. OLGA UGARTE CASIMIRO",
+                    cargo: "Presidenta de las Iglesias Evangélicas de Huánuco.",
+                },
+                {
+                    foto: Seberotiburcio,
+                    nombre: "Ing. SEVERO TIBURCIO SOTO",
+                    cargo: "Coordinador Regional de la Mesa de Concertación para la Lucha contra la Pobreza.",
+                },
+                {
+                    foto: Ceciliacook,
+                    nombre: "Dra. CARMEN CECILIA COOK GONZALES",
+                    cargo: "Directora Distrital de Defensa Pública y Acceso a la Justicia de Huánuco ",
+                },
+                {
                     foto: Pulgar,
                     nombre: "Antonio L. Pulgar Lucas",
                     cargo: "Gobernador Regional",
                 },
-                {
-                    foto: Marcodurand,
-                    nombre: "Marco O. Durand Rocca",
-                    cargo: "Jefe de la Oficina de la Defensoria del Pueblo de Huánuco",
-                },
+                
                 {
                     foto: Carlosconsejero,
                     nombre: "Carlos A.  Esteban Atencia",

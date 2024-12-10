@@ -41,7 +41,8 @@ export default {
             Ceciliacook,
             modules: [Pagination, Navigation, Autoplay],
 
-            datosmiembros: [{
+            datosmiembros: [
+                {
                     foto: Jaimegeronimo,
                     nombre: "Dr. Jaime Gerónimo De la Cruz",
                     cargo: "Presidente de la Corte Superior de Justicia de Huánuco / Presidente de la Comisión Regional Anticorrupción Huánuco",
