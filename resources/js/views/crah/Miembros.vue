@@ -12,11 +12,15 @@ import Jaimegeronimo from '../../../images/crah/miembros/presidente.jpg';
 import Rodolfovega from '../../../images/crah/miembros/rodolfovega.jpg';
 import Fredyaguirre from '../../../images/crah/miembros/fredyaguirre.jpg';
 import Procuradora from '../../../images/crah/miembros/procuradora.jpg';
+import Luismendoza from '../../../images/crah/miembros/luismendoza.jpg';
 import Emma from '../../../images/crah/miembros/emma.jpeg';
-import Miguel from '../../../images/crah/miembros/miguel.jpeg';
+import Miguel from '../../../images/crah/miembros/miguel.jpg';
 import Pulgar from '../../../images/crah/miembros/pulgar.jpeg';
 import Marcodurand from '../../../images/crah/miembros/marcodurand.jpg';
+import Olgaugarte from '../../../images/crah/miembros/olgaugarte.jpg';
 import Carlosconsejero from '../../../images/crah/miembros/carlosconsejero.jpg';
+import Seberotiburcio from '../../../images/crah/miembros/seberotiburcio.jpg';
+import Ceciliacook from '../../../images/crah/miembros/ceciliacook.jpg';
 
 export default {
 
@@ -25,8 +29,16 @@ export default {
             Jaimegeronimo,
             Rodolfovega,
             Fredyaguirre,
+            Procuradora,
+            Luismendoza,
             Emma,
             Miguel,
+            Pulgar,
+            Marcodurand, 
+            Olgaugarte,           
+            Carlosconsejero,
+            Seberotiburcio,
+            Ceciliacook,
             modules: [Pagination, Navigation, Autoplay],
 
             datosmiembros: [{
@@ -45,9 +57,14 @@ export default {
                     cargo: "Presidente de la Junta de Fiscales Superiores del Distrito Fiscal de Huánuco",
                 },
                 {
+                    foto: Luismendoza,
+                    nombre: "Cmdt. GERARDO LUIS MENDOZA CAMARENA",
+                    cargo: "Departamento Desconcentrado de Investigación contra la Corrupción – DIRCOCOR",
+                },
+                {
                     foto: Fredyaguirre,
-                    nombre: "Dr. Freddy S. Aguirre Melgarejo",
-                    cargo: "Decano del Colegio de Periodistas Consejo Regional Huánuco",
+                    nombre: "Mag. FREDDY SILES AGUIRRE MELGAREJO",
+                    cargo: "Decano del Colegio de Periodistas Consejo Regional Huánuco.",
                 },
                 {
                     foto: Marcodurand,
@@ -65,6 +82,21 @@ export default {
                     cargo: "Presidente de la Cámara de Comercio e Industrias de Huánuco",
                 },
                 {
+                    foto: Olgaugarte,
+                    nombre: "Sra. OLGA UGARTE CASIMIRO",
+                    cargo: "Presidenta de las Iglesias Evangélicas de Huánuco.",
+                },
+                {
+                    foto: Seberotiburcio,
+                    nombre: "Ing. SEVERO TIBURCIO SOTO",
+                    cargo: "Coordinador Regional de la Mesa de Concertación para la Lucha contra la Pobreza.",
+                },
+                {
+                    foto: Ceciliacook,
+                    nombre: "Dra. CARMEN CECILIA COOK GONZALES",
+                    cargo: "Directora Distrital de Defensa Pública y Acceso a la Justicia de Huánuco ",
+                },
+                {
                     foto: Pulgar,
                     nombre: "Antonio L. Pulgar Lucas",
                     cargo: "Gobernador Regional",
@@ -75,6 +107,7 @@ export default {
                     nombre: "Carlos A.  Esteban Atencia",
                     cargo: "Consejero Delegado",
                 },
+                
                 
 
             ],

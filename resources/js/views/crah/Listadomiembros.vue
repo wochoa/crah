@@ -8,9 +8,10 @@ import Jaimegeronimo from '../../../images/crah/miembros/presidente.jpg';
 
 import Rodolfovega from '../../../images/crah/miembros/rodolfovega.jpg';
 import Fredyaguirre from '../../../images/crah/miembros/fredyaguirre.jpg';
-// import Procuradora from '../../../images/crah/miembros/procuradora.jpg';
+import Procuradora from '../../../images/crah/miembros/procuradora.jpg';
+import Luismendoza from '../../../images/crah/miembros/luismendoza.jpg';
 import Emma from '../../../images/crah/miembros/emma.jpeg';
-import Miguel from '../../../images/crah/miembros/miguel.jpeg';
+import Miguel from '../../../images/crah/miembros/miguel.jpg';
 import Pulgar from '../../../images/crah/miembros/pulgar.jpeg';
 import Marcodurand from '../../../images/crah/miembros/marcodurand.jpg';
 import Carlosconsejero from '../../../images/crah/miembros/carlosconsejero.jpg';
@@ -34,8 +35,13 @@ export default {
             Jaimegeronimo,
             Rodolfovega,
             Fredyaguirre,
+            Procuradora,
+            Luismendoza,
             Emma,
             Miguel,
+            Pulgar,
+            Marcodurand,            
+            Carlosconsejero,
 
             title: "Documentos normativos",
             listDeleteModal: false,
