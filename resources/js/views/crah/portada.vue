@@ -193,20 +193,20 @@ export default {
         <div class="bg-overlay bg-danger" style="background-color: #350303 !important;"></div>
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-5">
+                <!-- <div class="col-lg-4">
                     <div class="text-white-50">
                         <h1 class="text-white fw-semibold mb-3 hero-title">
                             Comisión Regional Anticorrupción de Huánuco
                         </h1>
-                        <p class="h4">Es un espacio de coordinación entre instituciones públicas, privadas y de la sociedad civil para prevenir, detectar y combatir la corrupción en una región Huánuco</p>
+                        <p class="h4">Es un espacio de coordinación entre instituciones públicas, privadas y de la sociedad civil para prevenir, detectar y combatir la corrupción en la región Huánuco</p>
 
                         <div class="button-items mt-4">
-                            <!-- <a href="#" class="btn btn-dark me-2">Leer más</a> -->
-                            <!-- <a href="#" class="btn btn-light">How it work</a> -->
+                            <a href="#" class="btn btn-dark me-2">Leer más</a> 
+                            <a href="#" class="btn btn-light">How it work</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-5 col-md-8 col-sm-10 ms-lg-auto">
+                </div> -->
+                <div class="col-lg-12 col-md-8 col-sm-10 ms-lg-auto">
                     <div class="card overflow-hidden mb-0 mt-5 mt-lg-0">
                         <!-- succes -->
                         <img :src="'http://gestionportales.regionhuanuco.gob.pe/storage/'+datoslider" alt="">
